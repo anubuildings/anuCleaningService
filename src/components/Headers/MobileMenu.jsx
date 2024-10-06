@@ -51,6 +51,7 @@ const MobileMenu = () => {
           <div className="menu-outer">
             {/* <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--> */}
           </div>
+         
           <div className="social-links">
             <ul className="clearfix list-wrap">
               <li>
@@ -71,6 +72,14 @@ const MobileMenu = () => {
               </li>
              
             </ul>
+          </div>
+
+          <div >
+            <center className="header-btn"> 
+            <Link to="/estimate" className="btn">
+                        Get Quote
+                        </Link>
+            </center>
           </div>
         </nav>
       </div>

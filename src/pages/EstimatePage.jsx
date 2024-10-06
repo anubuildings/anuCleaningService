@@ -12,13 +12,17 @@ const EstimatePage = () => {
 
   return (
     <>
-      <Layout header={1} footer={1}>
+       <Layout  header={1}
+        footer={1}
+        headerClassName={"header-style-two"}
+        topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea
-          title={"Request & Estimate"}
-          subtitle={"Request & Estimate"}
+          title={"Service Request"}
+          subtitle={"Service Request"}
         />
         <EstimateArea />
         <BrandArea className={"inner-brand-area pb-70"} />
+        <br/>
       </Layout>
     </>
   );

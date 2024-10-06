@@ -15,7 +15,7 @@ const ContactPage = () => {
     footer={1}
     headerClassName={"header-style-two"}
     topHeaderClassName={"header-top-two"}>
-      <BreadcrumbArea title={"Contact Page"} subtitle={"Contact Page"} />
+      <BreadcrumbArea title={"Contact Us"} subtitle={"Contact Us"} />
       <ContactPageArea />
       <ContactMapArea />
     </Layout>

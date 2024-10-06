@@ -23,7 +23,7 @@ const ServicesAreaThree = () => {
   const slick_settings = {
     dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 2000,
     autoplay: true,
     arrows: false,
     slidesToShow: 4,

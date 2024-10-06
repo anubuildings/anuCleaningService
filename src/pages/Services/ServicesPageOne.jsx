@@ -19,6 +19,7 @@ const ServicesPageTwo = () => {
         <BreadcrumbArea title={"Our Services"} subtitle={"Our Services"} />
         <ServicesAreaAll />
         <BrandArea className={"inner-brand-area pb-70"} />
+        <br/>
       </Layout>
     </>
   );

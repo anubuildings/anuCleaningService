@@ -1,13 +1,9 @@
 import React, { useEffect } from "react";
 import BannerOne from "../../components/Banner/BannerOne";
-import BlogAreaTwo from "../../components/Blogs/BlogAreaTwo";
 import BrandArea from "../../components/BrandArea/BrandArea";
-import CounterAreaTwo from "../../components/CounterAreas/CounterAreaTwo";
 import FaqAreaOne from "../../components/FaqArea/FaqAreaOne";
 import IntroductionAreaOne from "../../components/Introduction/IntroductionAreaOne";
-import ProjectAreaTwo from "../../components/ProjectAreas/ProjectAreaTwo";
 import ServicesAreaThree from "../../components/ServicesArea/ServicesAreaThree";
-import ServicesAreaTwo from "../../components/ServicesArea/ServicesAreaTwo";
 import TestimonialAreaTwo from "../../components/Testimonials/TestimonialAreaTwo";
 import Layout from "../../layouts/Layout";
 import { gsapTitleAnimation } from "../../lib/gsap-lib/gsapTitleAnimation";

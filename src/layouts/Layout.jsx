@@ -1,9 +1,6 @@
 import React from "react";
-import FooterOne from "../components/Footers/FooterOne";
 import FooterTwo from "../components/Footers/FooterTwo";
 import HeaderOne from "../components/Headers/HeaderOne";
-import HeaderThree from "../components/Headers/HeaderThree";
-import HeaderTwo from "../components/Headers/HeaderTwo";
 import PageLoader from "../components/PageLoader/PageLoader";
 import ScrollToTopButton from "../components/ScrollToTopButton/ScrollToTopButton";
 
@@ -27,8 +24,7 @@ const Layout = ({
         />
       )}
 
-      {header === 2 && <HeaderTwo />}
-      {header === 3 && <HeaderThree />}
+    
 
       {/* main content */}
       <main>{children}</main>

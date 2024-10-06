@@ -23,12 +23,12 @@ const HeaderNavMenu = () => {
           <Link to="/about">About Us</Link>
         </li>
         <li className={cn(isActiveClassName("/services"))}>
-          <Link to="/services">Services</Link>
+          <Link to="/services">Our Services</Link>
         </li>
         
      
         <li className={cn(isActiveClassName("/contact"))}>
-          <Link to="/contact">contacts</Link>
+          <Link to="/contact">contact Us</Link>
         </li>
       </ul>
     </div>

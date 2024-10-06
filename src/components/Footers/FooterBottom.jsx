@@ -9,7 +9,7 @@ const FooterBottom = () => {
           <div className="col-lg-6 col-md-7">
             <div className="copyright-text">
               <p>
-                2024 <Link to="/">Anu Building Services.</Link> All Rights Reserved.
+              &#169;2024 <Link to="/">Anu Building Services.</Link> All Rights Reserved.
               </p>
             </div>
           </div>

@@ -338,7 +338,7 @@ export const BestServiceItemsArray = [
     title: "Steam Wash Carpet Cleaning",
     subtitle:
       "Anu building services will work hard on giving a residential carpets a thorough clean that will help bring back its almost new appearance.",
-    url: "/stam-carpet",
+    url: "/stamcarpet",
     src: "/img/images/steam-carpet.jpg",
     src2: "/img/images/steam-carpet.jpg",
     src3: "/img/images/steam-carpet.jpg",

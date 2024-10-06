@@ -25,17 +25,15 @@ const BannerOne = () => {
           <div className="col-lg-7">
             <div className="banner-content">
               <span className="sub-title wow fadeInUp" data-wow-delay=".2s">
-                Cleaning Services
+              Top-Notch Cleaning Services
               </span>
 
               <h2 className="title wow fadeInUp" data-wow-delay=".4s">
-                Best Cleaning Service in Home
+              Best Professional Cleaning Solutions
               </h2>
 
               <p className="wow fadeInUp" data-wow-delay=".6s">
-                Lorem ipsum dolor sit amet consectetur. Ut tellus suspendisse
-                nulla aliquam. Risus rutrum tellus eget ultrices pretium nisi
-                amet facilisis.
+              Experience exceptional cleanliness with our expert team. Quick, thorough, and reliable service tailored to your needs for a spotless home environment.
               </p>
 
               <div className="banner-btn">
@@ -47,7 +45,7 @@ const BannerOne = () => {
                 alt=""
               />
                <Link
-                  t="/services"
+                  to="/services"
                   className="btn wow fadeInLeft"
                   data-wow-delay=".8s"
                 >

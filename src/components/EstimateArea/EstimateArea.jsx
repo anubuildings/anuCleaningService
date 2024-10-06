@@ -18,9 +18,11 @@ const EstimateArea = () => {
                         <i className="fas fa-map-marker-alt"></i>
                       </div>
                       <div className="content">
-                        <h2 className="title">New York Office</h2>
-                        <p>681 Sussex St. Brooklyn, NY 11204, USA.</p>
-                        <a href="tel:0123456789">(+01) 9999-888-888</a>
+                        <h2 className="title">Office</h2>
+                        <p>5215, Finch Ave E Unit:153 ,<br/>
+                        Scarborough, Ontario.M1S0C2</p>
+                        <p>Phone  (647) 773-4356</p>
+                        
                       </div>
                     </div>
                   </div>
@@ -28,12 +30,13 @@ const EstimateArea = () => {
                   <div className="col-sm-6">
                     <div className="loction-item">
                       <div className="icon">
-                        <i className="fas fa-map-marker-alt"></i>
+                        <i className="fas fa-clock"></i>
                       </div>
                       <div className="content">
-                        <h2 className="title">California Office</h2>
-                        <p>681 Sussex St. Brooklyn, NY 11204, USA.</p>
-                        <a href="tel:0123456789">(+01) 9999-888-888</a>
+                        <h2 className="title">Office Hours</h2>
+                        <p>Mon-Fri: 9:00 am to<br/> 5:00 pm<br/>
+                        Sat 9:00 am to<br/> 1:00 pm</p>
+                        
                       </div>
                     </div>
                   </div>
@@ -44,7 +47,7 @@ const EstimateArea = () => {
 
           <div className="col-lg-6">
             <div className="estimate-form">
-              <h2 className="title">Schedule Free Estimate</h2>
+              <h2 className="title">New Service Request</h2>
               {/* form */}
               <EstimateForm />
             </div>

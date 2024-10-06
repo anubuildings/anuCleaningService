@@ -58,9 +58,8 @@ const HeaderOne = ({ headerClassName, topHeaderClassName }) => {
                       <HeaderSearch />
 
                       <li className="header-btn">
-                        <Link to="/contact" className="btn">
-                        Call us:
-                        (647) 773-4356
+                        <Link to="/estimate" className="btn">
+                        Get Quote
                         </Link>
                       </li>
                     </ul>

@@ -479,10 +479,14 @@ label {
   width: 100%;
   border-radius: 5px;
   height: 4px;
-  background: var(--tg-green);
+  background: var(--tg-blue);
   transition: 0.4s;
   opacity: 0;
 }
+.ml-10 {
+  margin-left: 10px;
+}
+
 .navbar-wrap > ul > li > a:hover::before,
 .navbar-wrap > ul > li.active > a::before {
   opacity: 1;
@@ -1205,7 +1209,7 @@ label {
   margin-bottom: 12px;
 }
 .banner-content .title {
-  font-size: 80px;
+  font-size: 70px;
   letter-spacing: -0.03em;
   margin-bottom: 15px;
   line-height: 1.1;
