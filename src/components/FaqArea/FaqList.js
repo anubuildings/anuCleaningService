@@ -23,7 +23,7 @@ export const FaqList = [
     expanded: false,
     btnClass: "collapsed",
     contentClass: "",
-    title: "LWhat services are included in standard cleaning ?",
+    title: "LWhat services are included in standard  Janitorial services ?",
     details: `Sweeping & Moping, Dusting & Vacooming.`,
   },
   {

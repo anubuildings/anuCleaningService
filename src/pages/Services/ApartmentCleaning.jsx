@@ -20,8 +20,8 @@ const ServicesDetailsPage = () => {
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea
-          title={"Apartment Cleaning"}
-          subtitle={"Apartment Cleaning"}
+          title={"Apartment  Janitorial services"}
+          subtitle={"Apartment  Janitorial services"}
         />
           <section className="services-deatails-area pt-130 pb-130">
       <div className="container">
@@ -38,9 +38,9 @@ const ServicesDetailsPage = () => {
                   </div>
               <div className="services-details-content">
                 <br/>
-                <h2 className="title">Apartment Cleaning</h2>
+                <h2 className="title">Apartment  Janitorial services</h2>
                 <p>
-                Anu building services provides full range of apartment cleaning services. Our bonded and fully trained associates provide as well as daily, weekly, cleaning options.
+                Anu building services provides full range of apartment  Janitorial services. Our bonded and fully trained associates provide as well as daily, weekly,  Janitorial services options.
                 </p>
              
 

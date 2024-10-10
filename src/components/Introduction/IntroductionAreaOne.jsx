@@ -26,17 +26,17 @@ const IntroductionAreaOne = () => {
             <div className="introduction-content">
               <div className="section-title-two mb-20 tg-heading-subheading animation-style2">
                 <br/>
-                <span className="sub-title">Professional Cleaning Services for</span>
-                <h3 className="title tg-element-title">
+                <span className="sub-title">Professional  Janitorial Services for</span>
+                <h3 className="title ">
                 Condo, Aparments, <br/>Commercial Buildings & Office
                 </h3>
               </div>
 
               <p className="info-one">
-              Cleaning can be a chore and we know you have many choices when you consider hiring a maid service. Because of that, we are constantly thriving to improve our already high standards to have you see us as the absolute best in the industry. 
+              Janitorial services can be a chore and we know you have many choices when you consider hiring a maid service. Because of that, we are constantly thriving to improve our already high standards to have you see us as the absolute best in the industry. 
               </p>
               <p>
-              It’s not enough to have trust in the cleaning crew that you let into your condo, aparments, commercial buildings & offices. You also have to trust that they will perform a first-class cleaning job for you. Putting our employees through a rigorous training program ensures each member of our cleaning team understands their role and how it relates to the overall performance of the team.
+              It’s not enough to have trust in the  Janitorial services crew that you let into your condo, aparments, commercial buildings & offices. You also have to trust that they will perform a first-class  Janitorial services job for you. Putting our employees through a rigorous training program ensures each member of our  Janitorial services team understands their role and how it relates to the overall performance of the team.
               </p>
 
               <div className="introduction-list">

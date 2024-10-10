@@ -44,7 +44,7 @@ const VideoAreaTwo = () => {
                       fill="currentcolor"
                     />
                   </svg>
-                  Best Experts in Cleaning
+                  Best Experts in  Janitorial services
                 </span>
                 <h2 className="title">
                 We are specialized in
@@ -57,7 +57,7 @@ const VideoAreaTwo = () => {
                   <div className="list-item">
                     <img src="/img/icon/video_icon01.svg" alt="" />
                     <Link to="/services-details">
-                    Steamwash carpet cleaning.
+                    Steamwash carpet  Janitorial services.
                     </Link>
                   </div>
                 </li>

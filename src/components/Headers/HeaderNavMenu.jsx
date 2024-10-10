@@ -25,8 +25,9 @@ const HeaderNavMenu = () => {
         <li className={cn(isActiveClassName("/services"))}>
           <Link to="/services">Our Services</Link>
         </li>
-        
-     
+        <li className={cn(isActiveClassName("/testimonial"))}>
+          <Link to="/testimonial">Testimonials</Link>
+        </li>
         <li className={cn(isActiveClassName("/contact"))}>
           <Link to="/contact">contact Us</Link>
         </li>

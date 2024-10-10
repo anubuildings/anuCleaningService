@@ -20,8 +20,8 @@ const ServicesDetailsPage = () => {
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea
-          title={"Retail Stores Cleaning"}
-          subtitle={"Retail Stores Cleaning"}
+          title={"Retail Stores  Janitorial services"}
+          subtitle={"Retail Stores  Janitorial services"}
         />
           <section className="services-deatails-area pt-130 pb-130">
       <div className="container">
@@ -38,9 +38,9 @@ const ServicesDetailsPage = () => {
                   </div>
               <div className="services-details-content">
                 <br/>
-                <h2 className="title">Retail Stores Cleaning</h2>
+                <h2 className="title">Retail Stores  Janitorial services</h2>
                 <p>
-                The cleanliness of the retail stores will bring clients inside and make them feel comfortable to frequent your business.Our objective is to treat each customer exclusively and create adapted cleaning plans that fit their daily routine and their facility requirements. Anu building services offer a full range of high quality professional cleaning services.
+                The cleanliness of the retail stores will bring clients inside and make them feel comfortable to frequent your business.Our objective is to treat each customer exclusively and create adapted  Janitorial services plans that fit their daily routine and their facility requirements. Anu building services offer a full range of high quality professional  Janitorial services.
                 </p>
              
 

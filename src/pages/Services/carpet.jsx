@@ -20,8 +20,8 @@ const ServicesDetailsPage = () => {
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea
-          title={"Residential Carpet Cleaning"}
-          subtitle={"Residential Carpet Cleaning"}
+          title={"Residential Carpet  Janitorial services"}
+          subtitle={"Residential Carpet  Janitorial services"}
         />
           <section className="services-deatails-area pt-130 pb-130">
       <div className="container">
@@ -38,9 +38,9 @@ const ServicesDetailsPage = () => {
                   </div>
               <div className="services-details-content">
                 <br/>
-                <h2 className="title">Residential Carpet Cleaning</h2>
+                <h2 className="title">Residential Carpet  Janitorial services</h2>
                 <p>
-                Our professional steam cleaning services can save you from replacing your carpet before it needs to be replaced. Ensuring that your carpets are clean and in good shape adds value to your resedential property when it has been properly maintained. Proper carpet steam cleaning and maintenance will also help to keep your home odour-free. Anu building services only use professional industry-approved products for all of our services.
+                Our professional steam Janitorial services can save you from replacing your carpet before it needs to be replaced. Ensuring that your carpets are clean and in good shape adds value to your resedential property when it has been properly maintained. Proper carpet steam  Janitorial services and maintenance will also help to keep your home odour-free. Anu building services only use professional industry-approved products for all of our services.
                 </p>
              
 

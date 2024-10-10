@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import BannerOne from "../../components/Banner/BannerOne";
 import BrandArea from "../../components/BrandArea/BrandArea";
+import AwardArea from "../../components/BrandArea/AwardArea"
 import FaqAreaOne from "../../components/FaqArea/FaqAreaOne";
 import IntroductionAreaOne from "../../components/Introduction/IntroductionAreaOne";
 import ServicesAreaThree from "../../components/ServicesArea/ServicesAreaThree";
@@ -31,7 +32,7 @@ const HomeOne = () => {
           headerClassName={"animation-style2"}
           src={"/img/bg/testimonial_bg.jpg"}
         />
-       
+       <AwardArea/>
         <BrandArea />
       </Layout>
     </>

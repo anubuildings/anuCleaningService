@@ -64,7 +64,7 @@ const AboutUs = () => {
                 <h2 className="title">
                   One Stop Commercial{" "}
                   <span>
-                    Cleaning
+                  Janitorial services
                    
                   </span>{" "}
                   Company
@@ -72,10 +72,10 @@ const AboutUs = () => {
               </div>
 
               <p>
-              At Anu Building Services Inc. our first priority is the satisfaction of our customers. Anu Building Services Inc. provides maintenance and cleaning service in a professional and detailed manner. We provide janitorial service and maintenance for condominiums, apartments, commercial buildings, retail stores, etc. We specialize in carpet steam wash, waxing floors and underground parking lot power wash. 
+              At Anu Building Services Inc. our first priority is the satisfaction of our customers. Anu Building Services Inc. provides maintenance and  Janitorial service in a professional and detailed manner. We provide janitorial service and maintenance for condominiums, apartments, commercial buildings, retail stores, etc. We specialize in carpet steam wash, waxing floors and underground parking lot power wash. 
               </p>
               <p>
-              We offer detailed cleaning services as well as fulltime employees for maintenance. Since 2012, we have expanded and made many long-term relationships. Our customers’ satisfaction has remained one of our biggest achievement. We continue to build good relationship and continue our long-term relationship with our existing clients.
+              We offer detailed  Janitorial services as well as fulltime employees for maintenance. Since 2012, we have expanded and made many long-term relationships. Our customers’ satisfaction has remained one of our biggest achievement. We continue to build good relationship and continue our long-term relationship with our existing clients.
               </p>
 
               <div className="contact">

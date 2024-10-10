@@ -40,7 +40,7 @@ const ServicesDetailsPage = () => {
                 <br/>
                 <h2 className="title">Underground parking lot power wash and clean</h2>
                 <p>
-                Anu Building Services is specialized in power washing and cleaning all types of underground parking garages.We use the latest right equipment and technology in conjunction with products that are environmentally responsible, Our technicians are well-trained and with industry-leading best practices.
+                Anu Building Services is specialized in power washing and  Janitorial services all types of underground parking garages.We use the latest right equipment and technology in conjunction with products that are environmentally responsible, Our technicians are well-trained and with industry-leading best practices.
                 </p>
              
 

@@ -20,8 +20,8 @@ const ServicesDetailsPage = () => {
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea
-          title={"Steam Wash Carpet Cleaning"}
-          subtitle={"Steam Wash Carpet Cleaning"}
+          title={"Steam Wash Carpet  Janitorial services"}
+          subtitle={"Steam Wash Carpet  Janitorial services"}
         />
           <section className="services-deatails-area pt-130 pb-130">
       <div className="container">
@@ -38,9 +38,9 @@ const ServicesDetailsPage = () => {
                   </div>
               <div className="services-details-content">
                 <br/>
-                <h2 className="title">Steam Wash Carpet Cleaning</h2>
+                <h2 className="title">Steam Wash Carpet  Janitorial services</h2>
                 <p>
-                Anu building services will work hard on giving a residential carpets a thorough clean that will help bring back its almost new appearance, maintain its wonderful condition and make it last for a much longer period of time. Our skilled and professional technicians will efficiently remove surface dirt and grime, as well as harmful pollutants or allergens build-up underneath the fibers. We aim to offer our clients only the best cleaning job that is backed with a Satisfaction Guarantee.
+                Anu building services will work hard on giving a residential carpets a thorough clean that will help bring back its almost new appearance, maintain its wonderful condition and make it last for a much longer period of time. Our skilled and professional technicians will efficiently remove surface dirt and grime, as well as harmful pollutants or allergens build-up underneath the fibers. We aim to offer our clients only the best  Janitorial services job that is backed with a Satisfaction Guarantee.
                 </p>
              
 

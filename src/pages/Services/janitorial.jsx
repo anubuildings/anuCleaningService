@@ -40,7 +40,7 @@ const ServicesDetailsPage = () => {
                 <br/>
                 <h2 className="title">Janitorial service and maintenance</h2>
                 <p>
-                Anu building services are provided with extreme care in an environmentally sensitive manner and offer a complete range of eco-friendly and biodegradable cleaning products at all of the worksites. Providing green cleaning services that can reduce the amount and type of toxic chemicals that are released into the environment, while still providing our customers with superior professional janitorial services.
+                Anu building services are provided with extreme care in an environmentally sensitive manner and offer a complete range of eco-friendly and biodegradable  Janitorial services products at all of the worksites. Providing green  Janitorial services services that can reduce the amount and type of toxic chemicals that are released into the environment, while still providing our customers with superior professional janitorial services.
                 </p>
              
 

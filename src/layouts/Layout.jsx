@@ -3,6 +3,7 @@ import FooterTwo from "../components/Footers/FooterTwo";
 import HeaderOne from "../components/Headers/HeaderOne";
 import PageLoader from "../components/PageLoader/PageLoader";
 import ScrollToTopButton from "../components/ScrollToTopButton/ScrollToTopButton";
+import Accessibility from "../accessibility";
 
 const Layout = ({
   children,
@@ -13,8 +14,10 @@ const Layout = ({
 }) => {
   return (
     <>
+   
       <PageLoader />
       <ScrollToTopButton />
+      {/* <Accessibility /> */}
 
       {/* header */}
       {header === 1 && (
@@ -28,7 +31,7 @@ const Layout = ({
 
       {/* main content */}
       <main>{children}</main>
-
+    
       {/* footer */}
       {footer === 1 && <FooterTwo />}
       {footer === 2 && <FooterTwo />}

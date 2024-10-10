@@ -1164,7 +1164,7 @@ label {
   background-size: cover;
   background-position: center;
   position: relative;
-  padding: 175px 0 400px;
+  padding: 70px 0 400px;
   z-index: 1;
   overflow: hidden;
 }
@@ -5517,3 +5517,5 @@ label,
   height: 100%;
   z-index: -1;
 }
+
+

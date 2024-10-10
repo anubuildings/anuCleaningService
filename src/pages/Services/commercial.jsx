@@ -20,8 +20,8 @@ const ServicesDetailsPage = () => {
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea
-          title={"Commercial Buildings Cleaning"}
-          subtitle={"Commercial Buildings Cleaning"}
+          title={"Commercial Buildings  Janitorial services"}
+          subtitle={"Commercial Buildings  Janitorial services"}
         />
           <section className="services-deatails-area pt-130 pb-130">
       <div className="container">
@@ -38,9 +38,9 @@ const ServicesDetailsPage = () => {
                   </div>
               <div className="services-details-content">
                 <br/>
-                <h2 className="title">Commercial Buildings Cleaning</h2>
+                <h2 className="title">Commercial Buildings  Janitorial services</h2>
                 <p>
-                We provide a wide range of commercial cleaning services for commercial buildings. Focused on top-notch results, our trained professionals come with the tools necessary to leave your facility spotless and your clients and employees comfortable.
+                We provide a wide range of commercial  Janitorial services for commercial buildings. Focused on top-notch results, our trained professionals come with the tools necessary to leave your facility spotless and your clients and employees comfortable.
                 </p>
              
 

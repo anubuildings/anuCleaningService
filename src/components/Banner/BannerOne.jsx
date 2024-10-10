@@ -24,12 +24,22 @@ const BannerOne = () => {
         <div className="row justify-content-end">
           <div className="col-lg-7">
             <div className="banner-content">
+             
+              <img
+                className="award"
+                src="/img/images/award.png"
+                data-aos="fade-right"
+                alt=""
+              />
+            
+             <br/>
+              <br/>
               <span className="sub-title wow fadeInUp" data-wow-delay=".2s">
-              Top-Notch Cleaning Services
+              Anu Building Services
               </span>
 
               <h2 className="title wow fadeInUp" data-wow-delay=".4s">
-              Best Professional Cleaning Solutions
+              Best Professional  Janitorial services Solutions
               </h2>
 
               <p className="wow fadeInUp" data-wow-delay=".6s">
@@ -38,12 +48,7 @@ const BannerOne = () => {
 
               <div className="banner-btn">
                
-                <img
-                className="award"
-                src="/img/images/award.png"
-                data-aos="fade-right"
-                alt=""
-              />
+               
                <Link
                   to="/services"
                   className="btn wow fadeInLeft"

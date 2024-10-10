@@ -40,7 +40,7 @@ const ServicesDetailsPage = () => {
                 <br/>
                 <h2 className="title">Condominiums Maintenance</h2>
                 <p>
-                Anu building services is equipped to handle high-end condominium building cleaning and maintenence services also provide professional cleaning personnel who will work to satisfy the varying needs with well-trained individual who will work hard to provide a friendly and a clean and attractive living environment.
+                Anu building services is equipped to handle high-end condominium building  Janitorial services and maintenence services also provide professional  Janitorial services personnel who will work to satisfy the varying needs with well-trained individual who will work hard to provide a friendly and a clean and attractive living environment.
                 </p>
              
 

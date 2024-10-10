@@ -2,6 +2,7 @@ import React from "react";
 import FooterBottom from "./FooterBottom";
 import { Link } from "react-router-dom";
 
+
 const FooterTwo = () => {
   return (
     <footer>
