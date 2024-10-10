@@ -32,7 +32,7 @@ function App() {
     });
     wow.init();
   }, []);
-
+ 
   // aos scroll
   useEffect(() => {
     AOS.init({ duration: 1000, mirror: true, once: true, disable: "mobile" });
