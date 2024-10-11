@@ -9,10 +9,9 @@ const FooterOne = () => {
         <div className="footer-top">
           <div className="container">
            
-
-            <div className="row">
-              <div className="col-lg-3 col-sm-6">
-                <div className="footer-widget">
+<div className="row">
+  <div className="col-md-3">
+  <div className="footer-widget">
                   <div className="fw-title">
                     <h4 className="title">Our Location</h4>
                   </div>
@@ -26,10 +25,11 @@ const FooterOne = () => {
                   
                   </div>
                 </div>
-              </div>
-
-              <div className="col-lg-3 col-sm-6">
-                <div className="footer-widget">
+  </div>
+  <div className="col-md-9">
+    <div className="row">
+      <div className="col-md-4">
+      <div className="footer-widget">
                   <div className="fw-title">
                     <h4 className="title">Working Hours</h4>
                   </div>
@@ -39,13 +39,14 @@ const FooterOne = () => {
                     <p>
 365
 24/7</p>
+
+
                     </div>
                   </div>
                 </div>
-              </div>
-
-              <div className="col-lg-3 col-sm-6">
-                <div className="footer-widget">
+      </div>
+      <div className="col-md-4">
+      <div className="footer-widget">
                   <div className="fw-title">
                     <h4 className="title">Office Working Hours</h4>
                   </div>
@@ -57,10 +58,9 @@ Sunday - close
                     </p>
                   </div>
                 </div>
-              </div>
-
-              <div className="col-lg-3 col-sm-6">
-                <div className="footer-widget">
+</div>
+<div className="col-md-4">
+<div className="footer-widget">
                   <div className="fw-title">
                     <h4 className="title">Connect with Us</h4>
                   </div>
@@ -86,10 +86,18 @@ Sunday - close
             </ul>
           </div>
                 </div>
-              </div>
-
-            
-            </div>
+</div>
+<div className="row">
+<div className="col-md-12">
+<div className="footer-widget">
+<p>&#169;2024 <Link to="/">Anu Building Services.</Link> All Rights Reserved. </p>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+           
           </div>
         </div>
 

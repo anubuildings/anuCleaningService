@@ -9,7 +9,7 @@ const FooterBottom = () => {
           <div className="col-lg-12 col-md-12">
             <div className="copyright-text">
               <p>
-              &#169;2024 <Link to="/">Anu Building Services.</Link> All Rights Reserved. | Maintained and Developed by Orandbt
+              Maintained by Orandbt
               </p>
             </div>
           </div>

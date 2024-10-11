@@ -5177,7 +5177,7 @@ label {
   color: var(--tg-white);
 }
 .footer-widget {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 .footer-widget .fw-title .title {
   font-weight: 500;
@@ -5645,6 +5645,11 @@ label,
   font-size: 16px;
   color: #777;
   margin-bottom: 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* Limits to 3 lines */
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .service-button {
@@ -5677,4 +5682,11 @@ overflow: visible !important;
 div[data-testid="container"] {
   height: 300px !important;
 }
+}
+
+.footer-widget p {
+  color:#fff;
+}
+.footer-widget a {
+  color:#fff;
 }
