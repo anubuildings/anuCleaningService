@@ -46,49 +46,47 @@ const AccessibilityMenu = () => {
     setIsBigCursor(!isBigCursor);
   };
 
-  // Reset all settings to default values
-  const resetAccessibility = () => {
-    setTextScale(1);
-    setLineHeightScale(1);
-    setIsInverted(false);
-    setIsGray(false);
-    setIsUnderlined(false);
-    setIsBigCursor(false);
-  };
-
   // Apply accessibility options to body
   useEffect(() => {
-    const style = document.createElement('style');
-    style.innerHTML = `
-      body, p, a, ul, li, div, span {
-        font-size: ${16 * textScale}px !important; /* Scale body text */
-      }
-      h1 { font-size: ${2.5 * textScale}rem !important; } /* Scale headings */
-      h2 { font-size: ${2 * textScale}rem !important; }
-      h3 { font-size: ${1.75 * textScale}rem !important; }
-      h4 { font-size: ${1.5 * textScale}rem !important; }
-      h5 { font-size: ${1.25 * textScale}rem !important; }
-      h6 { font-size: ${1 * textScale}rem !important; }
-    `;
-    document.head.appendChild(style);
+    const root = document.documentElement;
 
-    return () => {
-      document.head.removeChild(style); // Clean up when component unmounts or textScale changes
-    };
+    // Apply scaling to body text and headings based on scale factor
+    if (textScale !== 1) {
+      const style = document.createElement('style');
+      style.innerHTML = `
+        body, p, span, a, ul, li {
+          font-size: calc(16px * ${textScale}) !important; /* Scale based on 16px base */
+        }
+        h1 { font-size: calc(4.5rem * ${textScale}) !important; } /* Scale headings */
+        h2 { font-size: calc(4rem * ${textScale}) !important; }
+         h2 + div { font-size: 2.5rem !important; } /* Set div under h2 to 2.5rem */
+        h3 { font-size: calc(2.5rem * ${textScale}) !important; }
+        h4 { font-size: calc(1.5rem * ${textScale}) !important; }
+        h5 { font-size: calc(1.25rem * ${textScale}) !important; }
+        h6 { font-size: calc(1rem * ${textScale}) !important; }
+      `;
+      document.head.appendChild(style);
+
+      return () => {
+        document.head.removeChild(style); // Clean up when component unmounts or textScale changes
+      };
+    }
   }, [textScale]);
 
   useEffect(() => {
-    const style = document.createElement('style');
-    style.innerHTML = `
-      body, p, div, span, a, ul, li, h1, h2, h3, h4, h5, h6 {
-        line-height: ${1.5 * lineHeightScale} !important; /* Scale line height */
-      }
-    `;
-    document.head.appendChild(style);
+    if (lineHeightScale !== 1) {
+      const style = document.createElement('style');
+      style.innerHTML = `
+        body, p, div, span, a, ul, li, h1, h2, h3, h4, h5, h6 {
+          line-height: calc(1.5 * ${lineHeightScale}) !important; /* Scale line height */
+        }
+      `;
+      document.head.appendChild(style);
 
-    return () => {
-      document.head.removeChild(style); // Clean up when component unmounts or lineHeightScale changes
-    };
+      return () => {
+        document.head.removeChild(style); // Clean up when component unmounts or lineHeightScale changes
+      };
+    }
   }, [lineHeightScale]);
 
   useEffect(() => {
@@ -112,7 +110,6 @@ const AccessibilityMenu = () => {
 
       {isMenuOpen && (
         <div className="accessibility-menu">
-          <button className="close-button" onClick={toggleMenu}>×</button> {/* Close Icon */}
           <h3>Accessibility Options</h3>
           <button onClick={increaseTextSize}>Increase Text Size</button>
           <button onClick={decreaseTextSize}>Decrease Text Size</button>
@@ -130,7 +127,6 @@ const AccessibilityMenu = () => {
           <button onClick={toggleBigCursor}>
             {isBigCursor ? 'Normal Cursor' : 'Big Cursor'}
           </button>
-          <button onClick={resetAccessibility}>Reset</button>
         </div>
       )}
     </>

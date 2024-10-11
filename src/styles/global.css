@@ -1209,7 +1209,7 @@ label {
   margin-bottom: 12px;
 }
 .banner-content .title {
-  font-size: 70px;
+  font-size: 4rem;
   letter-spacing: -0.03em;
   margin-bottom: 15px;
   line-height: 1.1;
@@ -1470,7 +1470,7 @@ label {
   z-index: -1;
 }
 .breadcrumb-content .title {
-  font-size: 40px;
+  font-size: 2.5rem;
   margin-bottom: 17px;
   color: var(--tg-white);
 }
@@ -1565,7 +1565,7 @@ label {
 }
 .section-title .title {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5rem;
   margin-bottom: 0;
 }
 .section-title .title span {
@@ -1745,7 +1745,7 @@ label {
 }
 .section-title-three .title {
   margin-bottom: 0;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 .about-content-three {
   margin-left: 30px;
@@ -2333,7 +2333,7 @@ label {
   border-radius: 20px;
 }
 .services-details-content > .title {
-  font-size: 40px;
+  font-size: 2.5rem;
   margin-bottom: 12px;
   color: var(--tg-blue-five);
 }
@@ -2694,7 +2694,7 @@ label {
   margin-bottom: 5px;
 }
 .section-title-two .title {
-  font-size: 40px;
+  font-size: 2.5rem;
   margin-bottom: 0;
 }
 .introduction-content p {
@@ -3250,7 +3250,7 @@ label {
 .counter-item .content .count {
   margin-bottom: 5px;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 0.8;
   color: var(--tg-white);
 }
@@ -3369,7 +3369,7 @@ label {
   width: 100%;
   border: none;
   background: #fbfbfb;
-  color: var(--tg-white);
+  color: #000;
   font-weight: 400;
   font-size: 15px;
   border-radius: 5px;
@@ -3809,7 +3809,7 @@ label {
 }
 .project-details-content .title {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5rem;
   margin-bottom: 12px;
 }
 .project-details-content span {
@@ -3903,7 +3903,7 @@ label {
   padding: 100px 0 0;
 }
 .more-project-wrap > .title {
-  font-size: 40px;
+  font-size: 2.5rem;
   margin-bottom: 25px;
 }
 
@@ -5110,7 +5110,7 @@ label {
   border: none;
   font-weight: 400;
   font-size: 15px;
-  color: var(--tg-white);
+  color: #000;
   padding: 11px 22px;
   height: 50px;
   display: block;
