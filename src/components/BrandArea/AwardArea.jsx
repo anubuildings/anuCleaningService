@@ -8,7 +8,8 @@ const BrandArea = ({ className }) => {
       <div className="container">
        <div className="row">
         <div className="col-md-4 alc">
-<img src="/img/images/award.png" className="satimg" />
+<img src="/img/images/award.png" className="satimg pb-20" />
+
         </div>
         <div className="col-md-8">
         

@@ -25,8 +25,14 @@ const ContactPageArea = () => {
                   <i className="fas fa-clock"></i>
                 </div>
                 <div className="content">
-                Mon-Fri: 9:00 am – 5:00 pm<br/>
-                Sat 9:00 am – 1:00 pm
+              
+365
+24/7 - done
+<br/>
+<strong>Office working hours </strong>
+Monday to Friday 9 am to 5 pm 
+Saturday- 9 -12 <br/>
+Sunday - close 
                 </div>
               </div>
             </div>
@@ -40,7 +46,6 @@ const ContactPageArea = () => {
                  
                   5215, Finch Ave E Unit:153 ,<br/>
 Scarborough, Ontario.M1S0C2
-                 
                 </div>
               </div>
             </div>

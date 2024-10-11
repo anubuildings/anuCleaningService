@@ -941,7 +941,7 @@
 	font-size: 24px;
 }
 .about-area.has-animation {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 .services-area {
 	padding: 95px 0 70px;
@@ -956,7 +956,7 @@
 	padding: 95px 0 70px;
 }
 .brand-area {
-	padding: 0 0 100px;
+	padding: 50px 0 50px;
 }
 .contact-bg {
 	padding: 100px 0;
@@ -1032,7 +1032,7 @@
 	padding: 95px 0 0;
 }
 .services-area-three {
-	padding: 95px 0 0;
+	padding: 5px 0 0;
 	overflow: hidden;
 }
 .faq-content .accordion-button {

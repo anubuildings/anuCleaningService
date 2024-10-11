@@ -315,7 +315,7 @@ label {
 .scroll-top {
   width: 40px;
   height: 40px;
-  line-height: 40px;
+ padding-top: 5px;
   position: fixed;
   bottom: -10%;
   right: 30px;
@@ -2772,17 +2772,20 @@ label {
 }
 .video-content .list-wrap {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 22px;
   margin-bottom: 55px;
 }
 .video-content .list-wrap li {
-  width: 50%;
+  width: 100%;
 }
 .video-content .list-wrap .list-item {
   border: 1px solid #ecebeb;
   border-radius: 10px;
   padding: 35px 30px 30px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 .video-content .list-wrap .list-item img {
   display: block;
@@ -3307,7 +3310,7 @@ label {
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   background: var(--tg-white);
-  padding: 45px 35px;
+  padding: 35px 25px;
   position: relative;
   margin: 30px 0;
 }
@@ -5102,7 +5105,7 @@ label {
 .contact-content .form-grp textarea,
 .contact-content .form-grp input {
   width: 100%;
-  background: #203772;
+  background: #fff;
   border-radius: 10px;
   border: none;
   font-weight: 400;
