@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './accessibilityMenu.css'; // Include CSS for custom styles
+import bigCursor from './big-cursor.png';
 
 const AccessibilityMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,6 +10,7 @@ const AccessibilityMenu = () => {
   const [isGray, setIsGray] = useState(false);
   const [isUnderlined, setIsUnderlined] = useState(false);
   const [isBigCursor, setIsBigCursor] = useState(false);
+  const [isLightBackground, setIsLightBackground] = useState(false); // New state for light background
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -35,7 +37,7 @@ const AccessibilityMenu = () => {
   };
 
   const toggleGrayHues = () => {
-    setIsGray(!isGray);
+    setIsGray(prevState => !prevState);
   };
 
   const toggleUnderlineLinks = () => {
@@ -43,32 +45,51 @@ const AccessibilityMenu = () => {
   };
 
   const toggleBigCursor = () => {
-    setIsBigCursor(!isBigCursor);
+    setIsBigCursor(prevState => !prevState);
   };
 
-  // Apply accessibility options to body
-  useEffect(() => {
-    const root = document.documentElement;
+  const toggleLightBackground = () => {
+    setIsLightBackground(prevState => {
+        console.log('Toggling light background:', !prevState); // Log the new state
+        return !prevState; // Toggle the state
+    });
+};
 
-    // Apply scaling to body text and headings based on scale factor
+  const resetSettings = () => {
+    setTextScale(1);
+    setLineHeightScale(1);
+    setIsInverted(false);
+    setIsGray(false);
+    setIsUnderlined(false);
+    setIsBigCursor(false);
+    setIsLightBackground(false); // Reset light background state
+  };
+
+  // Apply accessibility options to body content only
+  useEffect(() => {
+    const contentWrapper = document.getElementById('content-wrapper');
+
     if (textScale !== 1) {
       const style = document.createElement('style');
       style.innerHTML = `
-        body, p, span, a, ul, li {
-          font-size: calc(16px * ${textScale}) !important; /* Scale based on 16px base */
+        #content-wrapper, #content-wrapper p, #content-wrapper span, #content-wrapper li, #content-wrapper a {
+          font-size: calc(1rem * ${textScale}) !important;
         }
-        h1 { font-size: calc(4.5rem * ${textScale}) !important; } /* Scale headings */
-        h2 { font-size: calc(4rem * ${textScale}) !important; }
-         h2 + div { font-size: 2.5rem !important; } /* Set div under h2 to 2.5rem */
-        h3 { font-size: calc(2.5rem * ${textScale}) !important; }
-        h4 { font-size: calc(1.5rem * ${textScale}) !important; }
-        h5 { font-size: calc(1.25rem * ${textScale}) !important; }
-        h6 { font-size: calc(1rem * ${textScale}) !important; }
+        #content-wrapper h1 { font-size: calc(4.5rem * ${textScale}) !important; }
+        #content-wrapper h3 { font-size: calc(2.5rem * ${textScale}) !important; }
+        #content-wrapper h4 { font-size: calc(1.5rem * ${textScale}) !important; }
+        #content-wrapper h5 { font-size: calc(1.25rem * ${textScale}) !important; }
+        #content-wrapper h6 { font-size: calc(1rem * ${textScale}) !important; }
+        #content-wrapper button { font-size: calc(1rem * ${textScale}) !important; }
+        #content-wrapper h2 div { font-size: calc(2.5rem * ${textScale}) !important; }
+        #content-wrapper h2 a { font-size: calc(2.5rem * ${textScale}) !important; }
+        #content-wrapper .navbar-wrap + a { font-size: calc(2.5rem * ${textScale}) !important; }
+        #content-wrapper ul + li + a { font-size: calc(2.5rem * ${textScale}) !important; }
       `;
       document.head.appendChild(style);
 
       return () => {
-        document.head.removeChild(style); // Clean up when component unmounts or textScale changes
+        document.head.removeChild(style);
       };
     }
   }, [textScale]);
@@ -77,58 +98,104 @@ const AccessibilityMenu = () => {
     if (lineHeightScale !== 1) {
       const style = document.createElement('style');
       style.innerHTML = `
-        body, p, div, span, a, ul, li, h1, h2, h3, h4, h5, h6 {
-          line-height: calc(1.5 * ${lineHeightScale}) !important; /* Scale line height */
+        #content-wrapper, #content-wrapper p, #content-wrapper div, #content-wrapper span, #content-wrapper a, 
+        #content-wrapper ul, #content-wrapper li, #content-wrapper h1, #content-wrapper h2, 
+        #content-wrapper h3, #content-wrapper h4, #content-wrapper h5, #content-wrapper h6 {
+          line-height: calc(1.5 * ${lineHeightScale}) !important;
         }
       `;
       document.head.appendChild(style);
 
       return () => {
-        document.head.removeChild(style); // Clean up when component unmounts or lineHeightScale changes
+        document.head.removeChild(style);
       };
     }
   }, [lineHeightScale]);
 
   useEffect(() => {
-    document.body.style.filter = isInverted ? 'invert(1)' : 'none';
-    document.body.style.color = isGray ? '#555' : 'initial';
+    const contentWrapper = document.getElementById('content-wrapper');
+
+    // Handle inversion
+    //contentWrapper.style.filter = isInverted ? 'invert(1)' : 'none';
+
+    // Apply gray hues to text and background
+    if (isGray) {
+      contentWrapper.style.filter = 'grayscale(1)'; 
+      contentWrapper.style.color = '#555'; // Gray text
+     // contentWrapper.style.backgroundColor = '#ccc'; // Gray background (optional)
+    } else {
+      contentWrapper.style.filter = 'none'; 
+      contentWrapper.style.color = 'initial'; // Reset to default
+      contentWrapper.style.backgroundColor = 'initial'; // Reset to default background (optional)
+    }
+
+    // Apply light background colors
+    if (isLightBackground) {
+      contentWrapper.style.color = 'black'; // Set text to black
+      contentWrapper.style.backgroundColor = 'white'; // Set background to white
+    }
+
+    // Adjust cursor size
     document.body.style.cursor = isBigCursor ? 'url(big-cursor.png), auto' : 'auto';
-  }, [isInverted, isGray, isBigCursor]);
+  }, [isInverted, isGray, isLightBackground, isBigCursor]);
 
   useEffect(() => {
-    const links = document.querySelectorAll('a');
+    const links = document.querySelectorAll('#content-wrapper a');
     links.forEach(link => {
       link.style.textDecoration = isUnderlined ? 'underline' : 'none';
     });
   }, [isUnderlined]);
 
+  useEffect(() => {
+    const cursorStyle = isBigCursor ? 'url(./big-cursor.png), auto' : 'auto';
+    document.body.style.cursor = cursorStyle;
+  }, [isBigCursor]);
+
+  useEffect(() => {
+    console.log('Effect for light background triggered:', isLightBackground); // Log the current state
+    const contentWrapper = document.getElementById('content-wrapper');
+
+    if (isLightBackground) {
+        contentWrapper.style.backgroundColor = 'white';
+        contentWrapper.style.color = 'black';
+    } else {
+        contentWrapper.style.backgroundColor = 'initial'; // Reset to default
+        contentWrapper.style.color = 'initial'; // Reset to default
+    }
+
+    // Other effects...
+}, [isLightBackground]);
+
   return (
     <>
-      <button className="floating-button" onClick={toggleMenu}>
-        Accessibility
+      <button
+        className="floating-button accessibility-button"
+        onClick={toggleMenu}
+        aria-expanded={isMenuOpen}
+        aria-controls="accessibility-menu"
+      >
+        <span className="icon"><i className="fa fa-universal-access"></i></span>
       </button>
 
       {isMenuOpen && (
-        <div className="accessibility-menu">
-          <h3>Accessibility Options</h3>
-          <button onClick={increaseTextSize}>Increase Text Size</button>
-          <button onClick={decreaseTextSize}>Decrease Text Size</button>
-          <button onClick={increaseLineHeight}>Increase Line Height</button>
-          <button onClick={decreaseLineHeight}>Decrease Line Height</button>
-          <button onClick={toggleInvertColors}>
-            {isInverted ? 'Normal Colors' : 'Invert Colors'}
-          </button>
-          <button onClick={toggleGrayHues}>
-            {isGray ? 'Normal Colors' : 'Gray Hues'}
-          </button>
-          <button onClick={toggleUnderlineLinks}>
-            {isUnderlined ? 'Normal Links' : 'Underline Links'}
-          </button>
-          <button onClick={toggleBigCursor}>
-            {isBigCursor ? 'Normal Cursor' : 'Big Cursor'}
-          </button>
-        </div>
-      )}
+  <div className="accessibility-menu">
+    <button className="close-button" onClick={toggleMenu} aria-label="Close Menu">
+      &times; {/* This is a multiplication sign which looks like an 'X' */}
+    </button>
+    <h3>Accessibility Options</h3>
+    <button onClick={increaseTextSize}>🔍 Increase Text Size</button>
+    <button onClick={decreaseTextSize}>🔍 Decrease Text Size</button>
+    <button onClick={increaseLineHeight}>📏 Increase Line Height</button>
+    <button onClick={decreaseLineHeight}>📏 Decrease Line Height</button>
+    <button onClick={toggleGrayHues}>
+      {isGray ? '🌈 Normal Colors' : '🌑 Gray Hues'}
+    </button>
+    <button onClick={toggleUnderlineLinks}>
+      {isUnderlined ? '🔗 Normal Links' : '🔗 Underline Links'}
+    </button>
+    <button onClick={resetSettings}>🔄 Reset</button>
+  </div>
+)}
     </>
   );
 };

@@ -17,8 +17,8 @@ const Layout = ({
    
       <PageLoader />
       <ScrollToTopButton />
-      {/* <Accessibility /> */}
-
+      <Accessibility />
+      <div id="content-wrapper">
       {/* header */}
       {header === 1 && (
         <HeaderOne
@@ -35,6 +35,7 @@ const Layout = ({
       {/* footer */}
       {footer === 1 && <FooterOne />}
       {footer === 2 && <FooterOne />}
+      </div>
     </>
   );
 };

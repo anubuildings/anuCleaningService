@@ -38,9 +38,9 @@ const BannerOne = () => {
               Anu Building Services
               </span>
 
-              <h2 className="title wow fadeInUp" data-wow-delay=".4s">
+              <h1 className="title wow fadeInUp" data-wow-delay=".4s">
               Professional  Janitorial services Solutions
-              </h2>
+              </h1>
 
               <p className="wow fadeInUp" data-wow-delay=".6s">
               Experience exceptional cleanliness with our expert team. Quick, thorough, and reliable service tailored to your needs for a spotless home environment.
