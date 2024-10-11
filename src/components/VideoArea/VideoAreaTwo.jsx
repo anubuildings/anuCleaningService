@@ -14,7 +14,7 @@ const VideoAreaTwo = () => {
     <section className="video-area inner-video-area has-animation pb-130">
       <div className="container">
         <div className="row justify-content-center align-items-center">
-          <div className="col-lg-6 col-md-8 order-0 order-lg-2">
+          <div className="col-lg-5 col-md-7 order-0 order-lg-2">
             <div className="video-img-wrap">
               <img src="/img/images/video_img01.png" alt="" />
               <img src="/img/images/video_img02.png" alt="" />
@@ -22,7 +22,7 @@ const VideoAreaTwo = () => {
             </div>
           </div>
 
-          <div className="col-lg-6">
+          <div className="col-lg-7">
             <div className="video-content">
               <div className="section-title mb-50">
                 <span className="sub-title">
@@ -55,7 +55,7 @@ const VideoAreaTwo = () => {
               <ul className="list-wrap">
                 <li>
                   <div className="list-item">
-                    <img src="/img/icon/video_icon01.svg" alt="" />
+                   
                     <Link to="/services-details">
                     Steamwash carpet  Janitorial services.
                     </Link>
@@ -63,17 +63,22 @@ const VideoAreaTwo = () => {
                 </li>
                 <li>
                   <div className="list-item">
-                    <img src="/img/icon/video_icon02.svg" alt="" />
+                   
                     <Link to="/services-details">
                     Underground parking powerwash.
+                    <br/>
+                    <br/>
                     </Link>
                   </div>
                 </li>
                 <li>
                   <div className="list-item">
-                    <img src="/img/icon/video_icon02.svg" alt="" />
+                  
                     <Link to="/services-details">
                     Stripping & waxing.
+                    <br/>
+                    <br/>
+                    <br/>
                     </Link>
                   </div>
                 </li>

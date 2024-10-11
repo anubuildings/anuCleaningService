@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const ServicesDetailsPage = () => {
   useEffect(() => {
-    gsapTitleAnimation();
+    //gsapTitleAnimation();
   }, []);
 
   return (
@@ -28,10 +28,10 @@ const ServicesDetailsPage = () => {
         <div className="row justify-content-center">
           <div className="col-lg-12 order-0 order-lg-2">
             <div className="services-details-wrap">
-            <div id="slider1" className="beer-slider" data-start="50">
+            <div id="slider1" className="beer-slider" data-start="0">
               
                     <BeforeAfterSlider
-                      before={"/img/images/services_img02.jpg"}
+                      before={"/img/images/services_item_img04.jpg"}
                       after={"/img/images/after_img.jpg"}
                       
                     />

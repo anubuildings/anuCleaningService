@@ -6,10 +6,10 @@ const FooterBottom = () => {
     <div className="footer-bottom">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-7">
+          <div className="col-lg-12 col-md-12">
             <div className="copyright-text">
               <p>
-              &#169;2024 <Link to="/">Anu Building Services.</Link> All Rights Reserved.
+              &#169;2024 <Link to="/">Anu Building Services.</Link> All Rights Reserved. | Maintained and Developed by Orandbt
               </p>
             </div>
           </div>

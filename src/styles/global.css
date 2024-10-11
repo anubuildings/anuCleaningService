@@ -14,7 +14,7 @@
   --tg-primary-color: #9D958E;
   --tg-secondary-color: #FF3000;
   --tg-body-font-color: #9D958E;
-  --tg-heading-font-color: #00A2FF;
+  --tg-heading-font-color: #6E6963;
   --tg-paragraph-color: #2E384D;
   --tg-body-font-size: 16px;
   --tg-body-font-weight: 400;
@@ -25,9 +25,9 @@
   --tg-section-background-two: #ecf3fb;
   --tg-blue: #968D87;
   --tg-blue-two: #eaf4ff;
-  --tg-blue-three: #06184c;
-  --tg-blue-four: #091e5a;
-  --tg-blue-five: #001857;
+  --tg-blue-three: #2E384D;
+  --tg-blue-four: #2E384D;
+  --tg-blue-five: #2E384D;
   --tg-lavender-blue: #d0dbf8;
   --tg-indigo: #6610f2;
   --tg-purple: #6f42c1;
@@ -1971,7 +1971,7 @@ label {
   transform: scale(1.1);
 }
 .services-content-three {
-  background: var(--tg-white);
+  background:rgba(255, 255, 255, 0.78);
   margin: -130px 25px 0;
   padding: 55px 25px 35px;
   position: relative;
@@ -3365,7 +3365,7 @@ label {
 .estimate-form .form-grp input {
   width: 100%;
   border: none;
-  background: #0d2a75;
+  background: #fbfbfb;
   color: var(--tg-white);
   font-weight: 400;
   font-size: 15px;
@@ -3388,7 +3388,7 @@ label {
   position: relative;
 }
 .estimate-form .form-grp.select-grp select {
-  background-color: #0d2a75;
+  background-color: #fbfbfb;
   border: none;
   color: #818fb5;
   font-weight: 400;
@@ -5517,5 +5517,161 @@ label,
   height: 100%;
   z-index: -1;
 }
+.flexicon {
+  display: flex;
+  gap:25px;
+ 
+}
+.flexicon i 
+{
+  color: #fff;
+  font-size: 22px;
+}
+.image-comparison-container img {
+  transition: none!important;
+}
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
 
+.grid-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+  transform: translateY(-10px);
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.service-thumbnail img {
+  width: 100%;
+  height: auto;
+  border-bottom: 3px solid #f0f0f0;
+}
+
+.service-details {
+  padding: 16px;
+}
+
+.service-title {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.service-subtitle {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 16px;
+}
+
+.service-button {
+  color: #fff;
+  background-color: #007bff;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.service-button:hover {
+  background-color: #0056b3;
+}
+.masonry-grid {
+  display: flex;
+  margin-left: -30px; /* compensate for the gutter */
+  width: auto;
+}
+
+.masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+.masonry-item {
+  margin-bottom: 30px; /* vertical space between items */
+}
+
+.service-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-thumbnail {
+ 
+  overflow: hidden; /* Hide overflow for images that don't fit */
+}
+
+.service-thumbnail img {
+  width: 100%;
+  height: 100%; /* Set height to 100% of the container */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.service-details {
+  padding: 16px;
+}
+
+.service-title {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.service-subtitle {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 16px;
+}
+
+.service-button {
+  color: #fff;
+  background-color: #007bff;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.service-button:hover {
+  background-color: #0056b3;
+}
+
+@media only screen and (max-width: 700px) {
+  .beer-slider img {
+height: 300px !important;
+}
+.image-comparison-container div {
+overflow: visible !important;
+
+}
+.image-comparison-container {
+  height: 300px !important;
+
+}
+div[data-testid="container"] {
+  height: 300px !important;
+}
+}

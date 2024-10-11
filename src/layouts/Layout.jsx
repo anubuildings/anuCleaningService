@@ -1,5 +1,5 @@
 import React from "react";
-import FooterTwo from "../components/Footers/FooterTwo";
+import FooterOne from "../components/Footers/FooterOne";
 import HeaderOne from "../components/Headers/HeaderOne";
 import PageLoader from "../components/PageLoader/PageLoader";
 import ScrollToTopButton from "../components/ScrollToTopButton/ScrollToTopButton";
@@ -33,8 +33,8 @@ const Layout = ({
       <main>{children}</main>
     
       {/* footer */}
-      {footer === 1 && <FooterTwo />}
-      {footer === 2 && <FooterTwo />}
+      {footer === 1 && <FooterOne />}
+      {footer === 2 && <FooterOne />}
     </>
   );
 };

@@ -39,23 +39,7 @@ const IntroductionAreaOne = () => {
               It’s not enough to have trust in the  Janitorial services crew that you let into your condo, aparments, commercial buildings & offices. You also have to trust that they will perform a first-class  Janitorial services job for you. Putting our employees through a rigorous training program ensures each member of our  Janitorial services team understands their role and how it relates to the overall performance of the team.
               </p>
 
-              <div className="introduction-list">
-                <ul className="list-wrap">
-                  <li>
-                    <i className="fas fa-check-circle"></i>We Are Experts: and dominate the industry in scale and scope with an adaptable, extensive network that consistently delivers exceptional results.
-                  </li>
-                  <li>
-                    <i className="fas fa-check-circle"></i>We Are Committed: to our customers and are guided in all we do by their needs.
-                  </li>
-                  <li>
-                    <i className="fas fa-check-circle"></i>We Are Complete: and seek to provide exceptional service and engage in proactive behavior.
-                  </li>
-                  <li>
-                    <i className="fas fa-check-circle"></i>We Are Driven: to our customers and are guided in all we do by their needs.
-                  </li>
-                
-                </ul>
-              </div>
+              <br/>
 
               <div className="introduction-bottom">
                 <Link to="/about" className="btn">

@@ -6,10 +6,12 @@ const BeforeAfterSlider = ({ before, after, start = 0.5 }) => {
     <>
       <div className="image-comparison-container">
       <ReactCompareImage
-        leftImage={before}
-        rightImage={after}
-        sliderPositionPercentage={start}
-        aspectRatio="wider" 
+      className="imgm"
+       leftImage={before}
+       rightImage={after}
+       aspectRatio="wider" // Optimized aspect ratio
+       lazyLoad={true}
+       vertical={false} // Horizontal drag
       />
       </div>
     </>

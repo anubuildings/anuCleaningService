@@ -8,6 +8,7 @@ import ServicesAreaThree from "../../components/ServicesArea/ServicesAreaThree";
 import TestimonialAreaTwo from "../../components/Testimonials/TestimonialAreaTwo";
 import Layout from "../../layouts/Layout";
 import { gsapTitleAnimation } from "../../lib/gsap-lib/gsapTitleAnimation";
+import WhyChoose from "../../components/AboutUs/WhyChoose"
 
 const HomeOne = () => {
   useEffect(() => {
@@ -23,7 +24,7 @@ const HomeOne = () => {
         topHeaderClassName={"header-top-two"}
       >
         <BannerOne />
-       
+      
         <IntroductionAreaOne />
         <ServicesAreaThree />
         <FaqAreaOne />
@@ -33,6 +34,7 @@ const HomeOne = () => {
           src={"/img/bg/testimonial_bg.jpg"}
         />
        <AwardArea/>
+       <WhyChoose/>
         <BrandArea />
       </Layout>
     </>

@@ -13,7 +13,7 @@ const BrandArea = ({ className }) => {
         <div className="col-md-8">
         
         <h2 className="title tg-element-title">
-        Satisfaction Guaranteed!
+        Award Area
                 </h2>
                 <p>
                 Your satisfaction is 100% guaranteed at Anu Building Services. If you are not happy with our service, just let us know and we’ll work to make it right. This makes hiring  Janitorial services Company virtually risk free. Our Employees are thoroughly screened through our rigorous recruitment process, and every one of them goes through hand in training process.

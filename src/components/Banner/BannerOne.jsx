@@ -39,7 +39,7 @@ const BannerOne = () => {
               </span>
 
               <h2 className="title wow fadeInUp" data-wow-delay=".4s">
-              Best Professional  Janitorial services Solutions
+              Professional  Janitorial services Solutions
               </h2>
 
               <p className="wow fadeInUp" data-wow-delay=".6s">
