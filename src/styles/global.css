@@ -1978,7 +1978,7 @@ label {
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
   z-index: 1;
-  min-height: 350px;
+  min-height: 330px;
 }
 .services-content-three .icon {
   width: 80px;
@@ -2004,6 +2004,11 @@ label {
 }
 .services-content-three p {
   margin-bottom: 20px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* Limits to 3 lines */
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .services-content-three .btn {
   background: var(--tg-gray-five);
