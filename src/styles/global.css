@@ -5695,3 +5695,6 @@ div[data-testid="container"] {
 .footer-widget a {
   color:#fff;
 }
+#content-wrapper {
+  overflow-x: hidden;
+}
