@@ -39,7 +39,7 @@ const FooterOne = () => {
                     <p>
                     Available 24/7, 365 Days a Year</p>
 
-
+                    <a href="tel:+16477734356"> +1 (647) 773-4356</a>
                     </div>
                   </div>
                 </div>
