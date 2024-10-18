@@ -40,7 +40,9 @@ const ServicesDetailsPage = () => {
                 <br/>
                 <h2 className="title">Residential Carpet  Janitorial services</h2>
                 <p>
-                Our professional steam Janitorial services can save you from replacing your carpet before it needs to be replaced. Ensuring that your carpets are clean and in good shape adds value to your resedential property when it has been properly maintained. Proper carpet steam  Janitorial services and maintenance will also help to keep your home odour-free. Anu building services only use professional industry-approved products for all of our services.
+                Keeping your space clean and germ-free is more important than ever. We offer comprehensive cleaning and disinfecting services to ensure your environment remains safe, using non-toxic products that effectively eliminate germs without harsh chemicals.
+                <br/>
+                Our award-winning team is trained to provide thorough, high-quality cleaning, giving you peace of mind that your space is not only clean but also healthy. We take pride in protecting your health while caring for the planet.
                 </p>
              
 

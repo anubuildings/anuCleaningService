@@ -6,7 +6,7 @@ export const FaqList = [
     btnClass: "",
     contentClass: "show",
     title: "How can I get a quote?",
-    details: `Please send us an email using our online mail system or call us and leave a detailed message some one from our team will contact you to provide all details.`,
+    details: `To receive a quote, simply send us an email through our online mail system or give us a call and leave a detailed message. Be sure to include the type of service you need and any specific requirements. A member of our team will get in touch with you promptly to provide all the necessary information and discuss your needs. We’re here to help make the process easy and straightforward!`,
   },
   {
     id: "headingTwo",
@@ -15,7 +15,7 @@ export const FaqList = [
     btnClass: "collapsed",
     contentClass: "",
     title: "Can i get a same day booking?",
-    details: `Yes, you can get same day booking.`,
+    details: `Yes, we offer same-day booking! If you need our services on short notice, please contact us as early as possible, and we will do our best to accommodate your request. Your satisfaction is our priority.`,
   },
   {
     id: "headingThree",
@@ -23,8 +23,8 @@ export const FaqList = [
     expanded: false,
     btnClass: "collapsed",
     contentClass: "",
-    title: "LWhat services are included in standard  Janitorial services ?",
-    details: `Sweeping & Moping, Dusting & Vacooming.`,
+    title: "What services are included in standard  Janitorial services ?",
+    details: `Our standard janitorial services include a range of essential tasks designed to keep your space clean and inviting. This typically encompasses sweeping and mopping floors, dusting surfaces, and vacuuming carpets. We strive to ensure that every corner of your facility is maintained to the highest standards, creating a fresh and healthy environment for everyone. If you have specific needs or additional requests, please feel free to let us know!`,
   },
   {
     id: "headingFour",
@@ -33,7 +33,7 @@ export const FaqList = [
     btnClass: "collapsed",
     contentClass: "",
     title: "Do you provide the supplies for your services ?",
-    details: `Yes we provide supplies for our services.`,
+    details: `Yes, we provide all the necessary supplies for our services! Our team comes equipped with eco-friendly cleaning products and tools to ensure a thorough and effective cleaning experience. You can rest assured that we have everything needed to maintain a clean and healthy environment for your space. If you have any specific preferences or requirements, please let us know, and we’ll be happy to accommodate you!`,
   },
   {
     id: "headingFive",
@@ -42,21 +42,6 @@ export const FaqList = [
     btnClass: "collapsed",
     contentClass: "",
     title: "How many cleaners do you offer per service ?",
-    details: `We provide staffs according to the place and work.`,
+    details: `The number of cleaners we provide depends on the size and scope of the job. We assess each location and the specific cleaning tasks required to determine the appropriate staffing level. Our goal is to ensure efficient and thorough service tailored to your needs. If you have any specific requests or concerns, please feel free to discuss them with us!`,
   },
-  // {
-  //   id: "headingFive",
-  //   controls: "collapseFive",
-  //   expanded: false,
-  //   btnClass: "collapsed",
-  //   contentClass: "",
-  //   title: "How does the 30-day free software trial work?",
-  //   details: `LessAccounting is 100% web-based, meaning it can be
-  //   accessed from anywhere and there’s no software to
-  //   install on your computer. You can easily use
-  //   LessAccounting on your iPhone or any Android mobile
-  //   device with our cloud accounting. That is what makes it
-  //   the best small business accounting software options
-  //   among accounting programs.`,
-  // },
 ];

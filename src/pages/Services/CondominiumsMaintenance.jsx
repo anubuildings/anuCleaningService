@@ -40,9 +40,10 @@ const ServicesDetailsPage = () => {
                 <br/>
                 <h2 className="title">Condominiums Maintenance</h2>
                 <p>
-                Anu building services is equipped to handle high-end condominium building  Janitorial services and maintenence services also provide professional  Janitorial services personnel who will work to satisfy the varying needs with well-trained individual who will work hard to provide a friendly and a clean and attractive living environment.
+                We understand how important it is to maintain a clean, comfortable living environment for residents. Our condominium janitorial and maintenance services ensure that common areas, hallways, and shared spaces remain spotless and welcoming for all.
+                <br/>
+                Our team is dedicated to providing consistent, reliable cleaning using eco-friendly products that are safe for everyone. We take pride in creating a space that residents can be proud of, always paying attention to detail and working to exceed your expectations.
                 </p>
-             
 
              <br/>
              <Link to="/estimate" className="btn">

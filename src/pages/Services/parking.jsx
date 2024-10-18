@@ -40,7 +40,9 @@ const ServicesDetailsPage = () => {
                 <br/>
                 <h2 className="title">Underground parking lot power wash and clean</h2>
                 <p>
-                Anu Building Services is specialized in power washing and  Janitorial services all types of underground parking garages.We use the latest right equipment and technology in conjunction with products that are environmentally responsible, Our technicians are well-trained and with industry-leading best practices.
+                Underground parking lots can accumulate dirt, oil stains, and debris, making them unappealing and unsafe. Our power wash and cleaning services are designed to restore your parking lot to pristine condition, removing tough stains and ensuring a clean, well-maintained space.
+                <br/>
+                We use powerful, eco-friendly cleaning agents and equipment to tackle even the hardest-to-reach areas, providing a deep clean that enhances safety and aesthetics. Our team is dedicated to delivering thorough and efficient results, leaving your underground parking lot looking spotless and well cared for.
                 </p>
              
 

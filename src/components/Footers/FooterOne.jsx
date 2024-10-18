@@ -37,8 +37,7 @@ const FooterOne = () => {
                    
                     <div className="footer-contact">
                     <p>
-365
-24/7</p>
+                    Available 24/7, 365 Days a Year</p>
 
 
                     </div>
@@ -48,13 +47,13 @@ const FooterOne = () => {
       <div className="col-md-4">
       <div className="footer-widget">
                   <div className="fw-title">
-                    <h4 className="title">Office Working Hours</h4>
+                    <h4 className="title">Office Hours:</h4>
                   </div>
                   <div className="footer-newsletter">
                    <p>
-                   Monday to Friday 9 am to 5 pm <br/>
-Saturday- 9 -12  <br/>
-Sunday - close 
+                   Monday to Friday: 9 AM - 5 PM <br/>
+                   Saturday: 9 AM - 12 PM  <br/>
+                   Sunday: Closed 
                     </p>
                   </div>
                 </div>
@@ -82,18 +81,28 @@ Sunday - close
                   <i className="fab fa-linkedin-in"></i>
                 </a>
               </li>
+              <li>
+                <a href="#">
+                  <i className="fab fa-whatsapp"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="fab fa-twitter"></i>
+                </a>
+              </li>
              
             </ul>
           </div>
                 </div>
-</div>
-<div className="row">
-<div className="col-md-12">
-<div className="footer-widget">
-<p>&#169;2024 <Link to="/">Anu Building Services.</Link> All Rights Reserved. </p>
-</div>
-</div>
-</div>
+          </div>
+          <div className="row">
+          <div className="col-md-12">
+            <div className="footer-widget">
+              <p>&#169;2017 - 2024 <Link to="/">Anu Building Services.</Link> All Rights Reserved. </p>
+            </div>
+          </div>
+          </div>
     </div>
   </div>
 </div>

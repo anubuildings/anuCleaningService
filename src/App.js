@@ -9,6 +9,8 @@ import ServicesPageOne from "./pages/Services/ServicesPageOne";
 import EstimatePage from "./pages/EstimatePage";
 import ContactPage from "./pages/ContactPage";
 import ApartmentCleaning from "./pages/Services/ApartmentCleaning";
+import PostConstructionPage from "./pages/Services/postconstruction";
+import OfficeCleaning from "./pages/Services/OfficeCleaning";
 import CondominiumsMaintenance from "./pages/Services/CondominiumsMaintenance";
 import Commercial from "./pages/Services/commercial";
 import Retail from "./pages/Services/retail";
@@ -53,7 +55,9 @@ function App() {
         <Route path="/" element={<HomeOne />} />
         <Route path="/about" element={<AboutUsPage />} />
         <Route path="/services" element={<ServicesPageOne />} />
+        <Route path="/postconstruction" element={<PostConstructionPage />} />
         <Route path="/ApartmentCleaning" element={<ApartmentCleaning />} />
+        <Route path="/OfficeCleaning" element={<OfficeCleaning />} />
         <Route path="/estimate" element={<EstimatePage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/CondominiumsMaintenance" element={<CondominiumsMaintenance />} />

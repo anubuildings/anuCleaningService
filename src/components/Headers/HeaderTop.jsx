@@ -10,7 +10,7 @@ const HeaderTop = ({ className }) => {
             <div className="header-top-left">
               <span>
                 <i className="fas fa-fire-alt"></i> Satisfaction Guaranteed! | <i className="ml-10
-                fa fa-phone"></i> (647) 773-4356 
+                fa fa-phone"></i> +1 (647) 773-4356 
               </span>
             </div>
           </div>

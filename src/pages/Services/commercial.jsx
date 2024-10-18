@@ -40,7 +40,9 @@ const ServicesDetailsPage = () => {
                 <br/>
                 <h2 className="title">Commercial Buildings  Janitorial services</h2>
                 <p>
-                We provide a wide range of commercial  Janitorial services for commercial buildings. Focused on top-notch results, our trained professionals come with the tools necessary to leave your facility spotless and your clients and employees comfortable.
+                Whether you manage a large complex or a small business, maintaining cleanliness is essential. Our commercial building cleaning services cover all areas, from lobbies and break rooms to high-traffic zones, ensuring your building stays clean and inviting.
+                <br/>
+                We believe in using natural, sustainable cleaning products that are safe for both people and the environment. Our goal is to provide the highest standard of service, with the quality and attention to detail you deserve.
                 </p>
              
 

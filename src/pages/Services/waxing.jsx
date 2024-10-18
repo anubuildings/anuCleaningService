@@ -20,8 +20,8 @@ const ServicesDetailsPage = () => {
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea
-          title={"Stripping and Waxing Floors"}
-          subtitle={"Stripping and Waxing Floors"}
+          title={"Tile and Grout Cleaning"}
+          subtitle={"Tile and Grout Cleaning"}
         />
           <section className="services-deatails-area pt-130 pb-130">
       <div className="container">
@@ -38,9 +38,11 @@ const ServicesDetailsPage = () => {
                   </div>
               <div className="services-details-content">
                 <br/>
-                <h2 className="title">Stripping and Waxing Floors</h2>
+                <h2 className="title">Tile and Grout Cleaning</h2>
                 <p>
-                Anu building services provides the ultimate Worry-Free experience when it comes to Stripping and Waxing for your floors. We work with the best Technicians to performed the standard of service, allowing us to guaranteed your satisfaction. We provide all supplies.
+                Tile and grout surfaces can be difficult to keep clean over time, especially in high-traffic areas. Our tile and grout cleaning service restores their original shine, removing dirt, grime, and stains that regular cleaning leaves behind.
+                <br/>
+                We use specialized techniques and eco-friendly solutions to safely clean and protect your tile surfaces, ensuring long-lasting results. Our team is committed to helping you maintain a fresh, polished look in your space.
                 </p>
              
 

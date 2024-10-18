@@ -40,7 +40,9 @@ const ServicesDetailsPage = () => {
                 <br/>
                 <h2 className="title">Janitorial service and maintenance</h2>
                 <p>
-                Anu building services are provided with extreme care in an environmentally sensitive manner and offer a complete range of eco-friendly and biodegradable  Janitorial services products at all of the worksites. Providing green  Janitorial services services that can reduce the amount and type of toxic chemicals that are released into the environment, while still providing our customers with superior professional janitorial services.
+                Our janitorial service and maintenance solutions are tailored to meet the unique needs of your facility, ensuring a clean, well-maintained environment every day. From daily cleaning tasks to routine maintenance, we take care of all the details so your space remains fresh, functional, and inviting.
+                <br/>
+                Using eco-friendly products and modern techniques, our experienced team provides reliable cleaning and maintenance services for offices, commercial buildings, and residential complexes. We are committed to high standards of cleanliness and attention to detail, making sure your facility operates smoothly and looks its best at all times.                
                 </p>
              
 

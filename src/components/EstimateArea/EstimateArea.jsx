@@ -21,20 +21,21 @@ const EstimateArea = () => {
                         <h2 className="title">Office</h2>
                         <p>5215, Finch Ave E Unit:153 ,<br/>
                         Scarborough, Ontario.M1S0C2</p>
-                        <p>Phone  (647) 773-4356</p>
+                        <p>Phone  +1 (647) 773-4356</p>
                         
                       </div>
                     </div>
                   </div>
 
                   <div className="col-sm-6">
-                    <div className="loction-item">
+                    <div className="loction-item" >
                       <div className="icon">
                         <i className="fas fa-clock"></i>
                       </div>
                       <div className="content">
                         <h2 className="title">Office Hours</h2>
-                        <p>Mon-Fri: 9:00 am to<br/> 5:00 pm<br/>
+                        <p>
+                        Mon-Fri: 9:00 am to<br/> 5:00 pm<br/>
                         Sat 9:00 am to<br/> 1:00 pm<br/>
                         Sunday - Close 
                         </p>

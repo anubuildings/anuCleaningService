@@ -39,11 +39,13 @@ const BannerOne = () => {
               </span>
 
               <h1 className="title wow fadeInUp" data-wow-delay=".4s">
-              Professional  Janitorial services Solutions
+                Welcome to Anu Building Services!
               </h1>
 
               <p className="wow fadeInUp" data-wow-delay=".6s">
-              Experience exceptional cleanliness with our expert team. Quick, thorough, and reliable service tailored to your needs for a spotless home environment.
+              Since 2012, we have been your award-winning choice for professional janitorial services. Our team is dedicated to providing exceptional cleaning tailored to your needs, ensuring a spotless environment for your home or business.
+                <br/>
+              We take pride in using eco-friendly products because we care about both our clients and the planet. Our goal is to go above and beyond to deliver quality service you can trust.
               </p>
 
               <div className="banner-btn">

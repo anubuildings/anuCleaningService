@@ -9,23 +9,10 @@ const FooterBottom = () => {
           <div className="col-lg-12 col-md-12">
             <div className="copyright-text">
               <p>
-              Maintained by Orandbt
+              Maintained by <a href="https://orandbt.com">Orandbt</a> 
               </p>
             </div>
           </div>
-
-          {/* <div className="col-lg-6 col-md-5">
-            <div className="footer-bottom-menu">
-              <ul className="list-wrap">
-                <li>
-                  <Link to="/contact">Privacy Policy</Link>
-                </li>
-                <li>
-                  <Link to="/contact">Terms & Conditions</Link>
-                </li>
-              </ul>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>

@@ -72,17 +72,17 @@ const AboutUs = () => {
               </div>
 
               <p>
-              At Anu Building Services Inc. our first priority is the satisfaction of our customers. Anu Building Services Inc. provides maintenance and  Janitorial service in a professional and detailed manner. We provide janitorial service and maintenance for condominiums, apartments, commercial buildings, retail stores, etc. We specialize in carpet steam wash, waxing floors and underground parking lot power wash. 
+              At Anu Building Services Inc., we are your one-stop solution for commercial janitorial services. Since 2012, our priority has been the satisfaction of our clients. We offer professional and detailed maintenance and janitorial services for condominiums, apartments, commercial buildings, and retail stores. Our specialties include carpet steam cleaning, floor waxing, and power washing underground parking lots.
               </p>
               <p>
-              We offer detailed  Janitorial services as well as fulltime employees for maintenance. Since 2012, we have expanded and made many long-term relationships. Our customers’ satisfaction has remained one of our biggest achievement. We continue to build good relationship and continue our long-term relationship with our existing clients.
+              We go beyond simple cleaning. Our team is dedicated to delivering the highest standard of service, with full-time employees available for ongoing maintenance. Over the years, we’ve expanded and built many long-term relationships, and our clients’ trust remains our greatest achievement. We cherish these connections and strive to maintain them with care and dedication.
               </p>
 
               <div className="contact">
                 <span className="icon">
                   <i className="fas fa-phone-alt"></i>
                 </span>
-                <a href="tel:0123456789">(647) 773-4356</a>
+                <a href="tel:+16477734356">+1 (647) 773-4356</a>
               </div>
             </div>
           </div>

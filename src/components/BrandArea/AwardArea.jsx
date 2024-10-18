@@ -17,7 +17,9 @@ const BrandArea = ({ className }) => {
         Award Area
                 </h2>
                 <p>
-                Your satisfaction is 100% guaranteed at Anu Building Services. If you are not happy with our service, just let us know and we’ll work to make it right. This makes hiring  Janitorial services Company virtually risk free. Our Employees are thoroughly screened through our rigorous recruitment process, and every one of them goes through hand in training process.
+                Your satisfaction is 100% guaranteed at Anu Building Services. We are committed to delivering exceptional service every time and ensuring you are completely satisfied with the results. Hiring our janitorial services is a decision you can feel confident about.
+                <br/>
+                We also use eco-friendly cleaning products to provide a safe and healthy environment for your space. Our employees are carefully screened through a rigorous recruitment process and receive hands-on training to ensure top-quality service.
                 </p>
                 
           </div>

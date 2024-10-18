@@ -20,8 +20,8 @@ const ServicesDetailsPage = () => {
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea
-          title={"Steam Wash Carpet  Janitorial services"}
-          subtitle={"Steam Wash Carpet  Janitorial services"}
+          title={"Office Building  Janitorial services"}
+          subtitle={"Office Building  Janitorial services"}
         />
           <section className="services-deatails-area pt-130 pb-130">
       <div className="container">
@@ -38,11 +38,11 @@ const ServicesDetailsPage = () => {
                   </div>
               <div className="services-details-content">
                 <br/>
-                <h2 className="title">Steam Wash Carpet  Janitorial services</h2>
+                <h2 className="title">Office Building  Janitorial services</h2>
                 <p>
-                Carpets can trap dust, allergens, and stains, but our steam cleaning service provides a deep, thorough clean. We use advanced steam technology to refresh your carpets, leaving them looking and feeling brand new.
+                A clean office isn’t just about appearance—it also creates a healthy, productive workspace for your employees. We specialize in office building cleaning, ensuring that everything from desks to restrooms is kept spotless.
                 <br/>
-                With eco-friendly cleaning agents and powerful equipment, we ensure your carpets are not only clean but also safe for your home or business. Our team is committed to delivering results that go beyond surface-level cleaning.
+                We use natural, eco-friendly cleaning products to protect your health and the environment, giving your team a fresh start each day. Our reliable and professional staff takes care of the details, so you can focus on running your business.
                 </p>
              
 

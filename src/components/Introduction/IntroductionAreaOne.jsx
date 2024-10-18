@@ -33,10 +33,10 @@ const IntroductionAreaOne = () => {
               </div>
 
               <p className="info-one">
-              Janitorial services can be a chore and we know you have many choices when you consider hiring a maid service. Because of that, we are constantly thriving to improve our already high standards to have you see us as the absolute best in the industry. 
+              We know cleaning can be a hassle, and there are many options out there. That’s why we work hard to keep our standards high and make sure you can rely on us as one of the best.
               </p>
               <p>
-              It’s not enough to have trust in the  Janitorial services crew that you let into your condo, aparments, commercial buildings & offices. You also have to trust that they will perform a first-class  Janitorial services job for you. Putting our employees through a rigorous training program ensures each member of our  Janitorial services team understands their role and how it relates to the overall performance of the team.
+              Our team is well-trained to deliver top-quality cleaning services. You can trust that we’ll do a great job and keep your space clean and comfortable.
               </p>
 
               <br/>
@@ -48,7 +48,7 @@ const IntroductionAreaOne = () => {
 
                 <span className="call-now">
                   <i className="fas fa-phone-alt"></i>
-                  <a href="tel:0123456789">(647) 773-4356</a>
+                  <a href="tel:+16477734356">+1 (647) 773-4356</a>
                 </span>
               </div>
             </div>

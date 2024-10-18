@@ -66,8 +66,7 @@ const TestimonialAreaTwo = ({ className, headerClassName, src }) => {
             >
               <span className="sub-title">What We’re Offering</span>
               <h2 className="title tg-element-title">
-                Providing the Best Services for Our Customers
-              </h2>
+                Delivering Top-Quality Services You Can Trust              </h2>
             </div>
           </div>
         </div>

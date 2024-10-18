@@ -38,9 +38,11 @@ const ServicesDetailsPage = () => {
                   </div>
               <div className="services-details-content">
                 <br/>
-                <h2 className="title">Retail Stores  Janitorial services</h2>
+                <h2 className="title">Retail Stores Janitorial services</h2>
                 <p>
-                The cleanliness of the retail stores will bring clients inside and make them feel comfortable to frequent your business.Our objective is to treat each customer exclusively and create adapted  Janitorial services plans that fit their daily routine and their facility requirements. Anu building services offer a full range of high quality professional  Janitorial services.
+                A clean retail space makes a great first impression and keeps customers coming back. We provide tailored cleaning services to keep your store looking its best, from floors and windows to shelves and displays.
+                <br/>
+                Our team understands the importance of maintaining a fresh and inviting atmosphere for your customers. We use eco-friendly, non-toxic products to ensure a safe shopping environment, while delivering the high-quality service that has earned us our award-winning reputation.
                 </p>
              
 

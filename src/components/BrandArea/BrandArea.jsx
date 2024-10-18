@@ -8,7 +8,7 @@ const BrandArea = ({ className }) => {
       <div className="container">
        <div className="row">
         <div className="col-md-2 alc">
-<img src="/img/images/satisfaction.png" className="satimg" />
+        <img src="/img/images/satisfaction.png" className="satimg" />
         </div>
         <div className="col-md-8">
           <center>
@@ -16,7 +16,7 @@ const BrandArea = ({ className }) => {
         Satisfaction Guaranteed!
                 </h2>
                 <p>
-                Your satisfaction is 100% guaranteed at Anu Building Services. If you are not happy with our service, just let us know and we’ll work to make it right. This makes hiring  Janitorial services Company virtually risk free. Our Employees are thoroughly screened through our rigorous recruitment process, and every one of them goes through hand in training process.
+                At Anu Building Services, we genuinely care about your experience and your satisfaction means everything to us. That’s why we back our work with a 100% satisfaction guarantee. We’re here to make sure your space feels clean, comfortable, and cared for—every time.
                 </p>
                 </center>
           </div>

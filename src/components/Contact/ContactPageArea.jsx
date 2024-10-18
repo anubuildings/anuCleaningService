@@ -13,7 +13,7 @@ const ContactPageArea = () => {
                   <i className="fas fa-phone-volume"></i>
                 </div>
                 <div className="content">
-                  (647) 773-4356
+                  +1 (647) 773-4356
                  
                 </div>
               </div>
@@ -26,13 +26,12 @@ const ContactPageArea = () => {
                 </div>
                 <div className="content">
               
-365
-24/7 - done
-<br/>
-<strong>Office working hours </strong>
-Monday to Friday 9 am to 5 pm 
-Saturday- 9 -12 <br/>
-Sunday - close 
+                <b>Available 24/7, 365 Days a Year</b>
+                <br/>
+                <strong>Office working hours </strong>
+                Monday to Friday: 9:00 AM – 5:00 PM
+                Saturday: 9:00 AM – 12:00 PM <br/>
+                Sunday: Closed 
                 </div>
               </div>
             </div>
@@ -44,8 +43,8 @@ Sunday - close
                 </div>
                 <div className="content">
                  
-                  5215, Finch Ave E Unit:153 ,<br/>
-Scarborough, Ontario.M1S0C2
+                5215 Finch Ave E, Unit 153,<br/>
+                Scarborough, Ontario, M1S 0C2
                 </div>
               </div>
             </div>

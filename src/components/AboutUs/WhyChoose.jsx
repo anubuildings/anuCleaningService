@@ -37,16 +37,19 @@ const AboutUs = () => {
               <div className="introduction-list">
                 <ul className="list-wrap">
                   <li>
-                    <i className="fas fa-check-circle"></i>We Are Experts: and dominate the industry in scale and scope with an adaptable, extensive network that consistently delivers exceptional results.
+                    <i className="fas fa-check-circle"></i>We Are Experts: With extensive experience and a strong network, we consistently deliver exceptional, professional results across all types of spaces.
                   </li>
                   <li>
-                    <i className="fas fa-check-circle"></i>We Are Committed: to our customers and are guided in all we do by their needs.
+                    <i className="fas fa-check-circle"></i>We Are Committed: We listen closely to our customers’ needs and tailor our services to meet them. Your satisfaction is always our priority.
                   </li>
                   <li>
-                    <i className="fas fa-check-circle"></i>We Are Complete: and seek to provide exceptional service and engage in proactive behavior.
+                    <i className="fas fa-check-circle"></i>We Are Eco-Friendly: We use environmentally safe products that are gentle on your space and the planet, ensuring a healthy and clean environment.
                   </li>
                   <li>
-                    <i className="fas fa-check-circle"></i>We Are Driven: to our customers and are guided in all we do by their needs.
+                    <i className="fas fa-check-circle"></i>We Are Reliable: Our team is professional, punctual, and always delivers on time, making sure your space is cleaned when you need it.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle"></i>We Are Available 24/7: No matter the time or day, we’re here for you. Our services are available 24/7, 365 days a year to fit your schedule and needs.
                   </li>
                 
                 </ul>
@@ -56,7 +59,7 @@ const AboutUs = () => {
                 <span className="icon">
                   <i className="fas fa-phone-alt"></i>
                 </span>
-                <a href="tel:0123456789">(647) 773-4356</a>
+                <a href="tel:+16477734356">+1 (647) 773-4356</a>
               </div>
             </div>
           </div>

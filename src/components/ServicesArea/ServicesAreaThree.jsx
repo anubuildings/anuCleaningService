@@ -121,8 +121,8 @@ const ServicesAreaThree = () => {
             <div className="section-title-two white-title text-center mb-65 tg-heading-subheading animation-style2">
               <span className="sub-title">What We’re Offering</span>
               <h2 className="title tg-element-title">
-                Providing the Best Services <br />
-                for Our Customers
+                Delivering Top-Quality Services  <br />
+                You Can Trust
               </h2>
             </div>
           </div>
