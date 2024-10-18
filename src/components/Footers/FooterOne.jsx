@@ -66,7 +66,7 @@ const FooterOne = () => {
                   <div className="social-links">
             <ul className="clearfix list-wrap flexicon">
               <li>
-                <a href="#">
+                <a href="https://www.facebook.com/anubuildingservices/">
                   <i className="fab fa-facebook-f"></i>
                 </a>
               </li>

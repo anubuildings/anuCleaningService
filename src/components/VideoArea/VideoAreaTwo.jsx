@@ -185,6 +185,35 @@ const VideoAreaTwo = () => {
                     </Link>
                   </div>
                 </li>
+                <li>
+                  <div className="list-item">
+                    <div className="services-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 64 64"
+                        width="50"
+                        fill="#9D958E"
+                      >
+                        <path
+                          d="M2 2h60v60H2z"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="4"
+                        />
+                        <path
+                          d="M32 2v60M2 32h60"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="4"
+                        />
+                      </svg>
+                    </div>
+                    <Link to="/waxing">
+                      Tile and Grout Cleaning
+                    </Link>
+                  </div>
+                </li>
+
               </ul>
 
               <Link to="/services" className="btn">
