@@ -19,7 +19,7 @@ const HeaderTop = ({ className }) => {
           <div className="col-lg-6">
             <div className="header-top-right">
               <span>
-                <i className="far fa-clock"></i> Office hours : Mon-Fri: 9:00 am – 5:00 pm | Sat 9:00 am – 1:00 pm
+                <i className="fas fa-map-marker-alt"></i> We are available to serve you in the Greater Toronto Area
               </span>
             </div>
           </div>

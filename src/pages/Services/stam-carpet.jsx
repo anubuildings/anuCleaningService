@@ -20,8 +20,8 @@ const ServicesDetailsPage = () => {
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea
-          title={"Steam Wash Carpet  Janitorial services"}
-          subtitle={"Steam Wash Carpet  Janitorial services"}
+          title={"Steam Wash Carpet  Janitorial Services"}
+          subtitle={"Steam Wash Carpet  Janitorial Services"}
         />
           <section className="services-deatails-area pt-130 pb-130">
       <div className="container">
@@ -30,15 +30,17 @@ const ServicesDetailsPage = () => {
             <div className="services-details-wrap">
             <div id="slider1" className="beer-slider" data-start="50">
               
-                    <BeforeAfterSlider
+                    {/* <BeforeAfterSlider
                       before={"/img/images/services_img02.jpg"}
                       after={"/img/images/after_img.jpg"}
                       
-                    />
+                    /> */}
+                                        <img src="/img/images/steam-carpet.jpg" alt="Service Image" style={{ width: "100%", height: "auto", display: "block" }} />
+
                   </div>
               <div className="services-details-content">
                 <br/>
-                <h2 className="title">Steam Wash Carpet  Janitorial services</h2>
+                <h2 className="title">Steam Wash Carpet  Janitorial Services</h2>
                 <p>
                 Carpets can trap dust, allergens, and stains, but our steam cleaning service provides a deep, thorough clean. We use advanced steam technology to refresh your carpets, leaving them looking and feeling brand new.
                 <br/>

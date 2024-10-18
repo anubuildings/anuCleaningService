@@ -30,11 +30,13 @@ const ServicesDetailsPage = () => {
             <div className="services-details-wrap">
             <div id="slider1" className="beer-slider" data-start="50">
               
-                    <BeforeAfterSlider
+                    {/* <BeforeAfterSlider
                       before={"/img/images/services_img02.jpg"}
                       after={"/img/images/after_img.jpg"}
                       
-                    />
+                    /> */}
+                    <img src="/img/images/retail.jpg" alt="Service Image" style={{ width: "100%", height: "auto", display: "block" }} />
+
                   </div>
               <div className="services-details-content">
                 <br/>
