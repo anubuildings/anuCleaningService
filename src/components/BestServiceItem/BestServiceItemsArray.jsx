@@ -342,10 +342,10 @@ export const BestServiceItemsArray = [
     title: "Office Building Janitorial services",
     subtitle:
       "We create a healthy, productive workspace for your employees through our expert services.",
-    url: "/OfficeCleaning",
-    src: "/img/images/apartment-cleaning.jpg",
-    src2: "/img/images/apartment-cleaning.jpg",
-    src3: "/img/images/apartment-cleaning.jpg",
+    url: "/OfficeCleaning", 
+    src: "/img/images/officebuilding.png",
+    src2: "/img/images/officebuilding.png",
+    src3: "/img/images/officebuilding.png",
     icon: (
       <>
         <svg viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
