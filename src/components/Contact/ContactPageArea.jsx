@@ -16,8 +16,8 @@ const ContactPageArea = () => {
                 <a href="tel:+16477734356"> 
                   +1 (647) 773-4356
                 </a><br/>
-                <a href="mailto:vasi@anubuilding.com">
-                  vasi@anubuilding.com
+                <a href="mailto:vasi@anubuilsingservices.com ">
+                  vasi@anubuilsingservices.com 
                 </a>
                  
                 </div>

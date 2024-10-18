@@ -28,7 +28,7 @@ const IntroductionAreaOne = () => {
                 <br/>
                 <span className="sub-title">Professional  Janitorial Services for</span>
                 <h3 className="title ">
-                Condo, Aparments, <br/>Commercial Buildings & Office
+                Condo, <br/>Commercial Buildings & Office
                 </h3>
               </div>
 

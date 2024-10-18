@@ -72,7 +72,7 @@ const AboutUs = () => {
               </div>
 
               <p>
-              At Anu Building Services Inc., we are your one-stop solution for commercial janitorial services. Since 2012, our priority has been the satisfaction of our clients. We offer professional and detailed maintenance and janitorial services for condominiums, apartments, commercial buildings, and retail stores. Our specialties include carpet steam cleaning, floor waxing, and power washing underground parking lots.
+              At Anu Building Services Inc., we are your one-stop solution for commercial janitorial services. Since 2012, our priority has been the satisfaction of our clients. We offer professional and detailed maintenance and janitorial services for condominiums, commercial buildings, and retail stores. Our specialties include carpet steam cleaning, floor waxing, and power washing underground parking lots.
               </p>
               <p>
               We go beyond simple cleaning. Our team is dedicated to delivering the highest standard of service, with full-time employees available for ongoing maintenance. Over the years, we’ve expanded and built many long-term relationships, and our clients’ trust remains our greatest achievement. We cherish these connections and strive to maintain them with care and dedication.
