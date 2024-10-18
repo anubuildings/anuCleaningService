@@ -14,7 +14,7 @@ export const FaqList = [
     expanded: false,
     btnClass: "collapsed",
     contentClass: "",
-    title: "Can i get a same day booking?",
+    title: "Can I get a same day booking?",
     details: `Yes, we offer same-day booking! If you need our services on short notice, please contact us as early as possible, and we will do our best to accommodate your request. Your satisfaction is our priority.`,
   },
   {
