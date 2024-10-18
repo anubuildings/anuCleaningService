@@ -55,7 +55,7 @@ const MobileMenu = () => {
           <div className="social-links">
             <ul className="clearfix list-wrap">
               <li>
-                <a href="#">
+                <a href="https://www.facebook.com/anubuildingservices/">
                   <i className="fab fa-facebook-f"></i>
                 </a>
               </li>
@@ -68,6 +68,16 @@ const MobileMenu = () => {
               <li>
                 <a href="#">
                   <i className="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="fab fa-whatsapp"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="fab fa-twitter"></i>
                 </a>
               </li>
              
