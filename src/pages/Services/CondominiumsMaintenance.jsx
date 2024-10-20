@@ -20,8 +20,8 @@ const ServicesDetailsPage = () => {
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea
-          title={"Condominiums Maintenance"}
-          subtitle={"Condominiums Maintenance"}
+          title={"Condominium Janitorial Services"}
+          subtitle={"Condominium Janitorial Services"}
         />
           <section className="services-deatails-area pt-130 pb-130">
       <div className="container">
@@ -40,7 +40,7 @@ const ServicesDetailsPage = () => {
                   </div>
               <div className="services-details-content">
                 <br/>
-                <h2 className="title">Condominiums Maintenance</h2>
+                <h2 className="title">Condominium Janitorial Services</h2>
                 <p>
                 We understand how important it is to maintain a clean, comfortable living environment for residents. Our condominium janitorial and maintenance services ensure that common areas, hallways, and shared spaces remain spotless and welcoming for all.
                 <br/>

@@ -20,8 +20,8 @@ const ServicesDetailsPage = () => {
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea
-          title={"Retail Stores  Janitorial services"}
-          subtitle={"Retail Stores  Janitorial services"}
+          title={"Retail Store Cleaning"}
+          subtitle={"Retail Store Cleaning"}
         />
           <section className="services-deatails-area pt-130 pb-130">
       <div className="container">
@@ -40,7 +40,7 @@ const ServicesDetailsPage = () => {
                   </div>
               <div className="services-details-content">
                 <br/>
-                <h2 className="title">Retail Stores Janitorial services</h2>
+                <h2 className="title">Retail Store Cleaning</h2>
                 <p>
                 A clean retail space makes a great first impression and keeps customers coming back. We provide tailored cleaning services to keep your store looking its best, from floors and windows to shelves and displays.
                 <br/>

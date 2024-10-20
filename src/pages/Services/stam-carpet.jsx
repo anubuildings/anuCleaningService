@@ -20,8 +20,8 @@ const ServicesDetailsPage = () => {
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea
-          title={"Steam Wash Carpet  Janitorial Services"}
-          subtitle={"Steam Wash Carpet  Janitorial Services"}
+          title={"Steam Wash Carpet Janitorial Services"}
+          subtitle={"Steam Wash Carpet Janitorial Services"}
         />
           <section className="services-deatails-area pt-130 pb-130">
       <div className="container">
@@ -40,11 +40,11 @@ const ServicesDetailsPage = () => {
                   </div>
               <div className="services-details-content">
                 <br/>
-                <h2 className="title">Steam Wash Carpet  Janitorial Services</h2>
+                <h2 className="title">Steam Wash Carpet Janitorial Services</h2>
                 <p>
                 Carpets can trap dust, allergens, and stains, but our steam cleaning service provides a deep, thorough clean. We use advanced steam technology to refresh your carpets, leaving them looking and feeling brand new.
-                <br/>
-                With eco-friendly cleaning agents and powerful equipment, we ensure your carpets are not only clean but also safe for your home or business. Our team is committed to delivering results that go beyond surface-level cleaning.
+                    <br/>
+                With eco-friendly cleaning agents and powerful equipment, we ensure your carpets are not only clean but also safe for your condominium or business. Our team is committed to delivering results that go beyond surface-level cleaning.
                 </p>
              
 

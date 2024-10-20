@@ -43,9 +43,7 @@ const BannerOne = () => {
               </h1>
 
               <p className="wow fadeInUp" data-wow-delay=".6s">
-              Since 2012, we have been your award-winning choice for professional janitorial services. Our team is dedicated to providing exceptional cleaning tailored to your needs, ensuring a spotless environment for your home or business.
-                <br/>
-              We take pride in using eco-friendly products because we care about both our clients and the planet. Our goal is to go above and beyond to deliver quality service you can trust.
+              Since 2012, we have been your award-winning choice for professional janitorial services. Our team is dedicated to providing exceptional cleaning tailored to your needs, ensuring a spotless environment for your condominium or business. We take pride in using eco-friendly products because we care about both our clients and the planet. Our goal is to go above and beyond to deliver quality service you can trust.
               </p>
 
               <div className="banner-btn">

@@ -20,8 +20,8 @@ const ServicesDetailsPage = () => {
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea
-          title={"Tile and Grout Cleaning"}
-          subtitle={"Tile and Grout Cleaning"}
+          title={"Tile and Grout Cleaning Service"}
+          subtitle={"Tile and Grout Cleaning Service"}
         />
           <section className="services-deatails-area pt-130 pb-130">
       <div className="container">
@@ -40,9 +40,9 @@ const ServicesDetailsPage = () => {
                   </div>
               <div className="services-details-content">
                 <br/>
-                <h2 className="title">Tile and Grout Cleaning</h2>
+                <h2 className="title">Tile and Grout Cleaning Service</h2>
                 <p>
-                Tile and grout surfaces can be difficult to keep clean over time, especially in high-traffic areas. Our tile and grout cleaning service restores their original shine, removing dirt, grime, and stains that regular cleaning leaves behind.
+                Tile and grout surfaces can be difficult to keep clean over time, especially in high-traffic areas. Our Tile and Grout Cleaning Service restores their original shine, removing dirt, grime, and stains that regular cleaning leaves behind.
                 <br/>
                 We use specialized techniques and eco-friendly solutions to safely clean and protect your tile surfaces, ensuring long-lasting results. Our team is committed to helping you maintain a fresh, polished look in your space.
                 </p>

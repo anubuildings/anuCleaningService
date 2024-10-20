@@ -3,188 +3,8 @@ const getRandomHeight = () => {
 };
 
 export const BestServiceItemsArray = [
-  // {
-  //   title: "Apartment  Janitorial services",
-  //   subtitle:
-  //     "We provides full range of apartment  Janitorial services.",
-  //   url: "/ApartmentCleaning",
-  //   src: "/img/images/apartment-cleaning.jpg",
-  //   src2: "/img/images/apartment-cleaning.jpg",
-  //   src3: "/img/images/apartment-cleaning.jpg",
-  //   icon: (
-  //     <>
-  //       <svg viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-  //         <path
-  //           d="M26 9.43506H15.5325V7.40254H26V9.43506Z"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M15.5325 7.40234L18.7337 5.36983H22.7988L26 7.40234"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M18.7337 5.36987V0.999959H22.7988V5.36987"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M7.25002 1.00011H13.5V9.43506H1.00003V1.00011H7.25002Z"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M7.25002 9.43506V1.00011"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M5.2175 4.04883V6.38623"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M9.28254 4.04883V6.38623"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M23.9675 23.9675H15.5325V19.9025H23.9675V23.9675Z"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M13.5 26V17.8699"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M18.7338 15.8376H17.7175V17.8701"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M22.9512 15.8376H23.9675V17.8701"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M1.00003 21.9351H13.5"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M6.23376 19.9026H8.26628"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M6.23376 23.9675H8.26628"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M13.5 13.5C12.3776 13.5 11.4675 14.41 11.4675 15.5325"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M9.43497 13.5C10.5574 13.5 11.4675 14.41 11.4675 15.5325"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M13.5 13.5C12.3776 13.5 11.4675 12.5899 11.4675 11.4675"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M9.43497 13.5C10.5574 13.5 11.4675 12.5899 11.4675 11.4675"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M19.75 13.5V11.4675"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M20.7663 12.4836H18.7337"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M5.36994 15.5325V13.5"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M6.3862 14.5161H4.35368"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //         <path
-  //           d="M7.75815 26.0002C7.75815 26.2808 7.53066 26.5083 7.25002 26.5083C6.96938 26.5083 6.74189 26.2808 6.74189 26.0002C6.74189 25.7196 6.96938 25.492 7.25002 25.492C7.53066 25.492 7.75815 25.7196 7.75815 26.0002Z"
-  //           fill="currentcolor"
-  //         />
-  //         <path
-  //           d="M4.96341 26H1V17.8699H26V26H9.53663"
-  //           stroke="currentcolor"
-  //           strokeMiterlimit="10"
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //       </svg>
-  //     </>
-  //   ),
-  // },
   {
-    title: "Condominium Janitorial and Maintenance Services",
+    title: "Condominium Janitorial Services",
     subtitle:
       "We specialize in providing top-tier janitorial and maintenance services for high-end condominium buildings, ensuring pristine conditions and exceptional care for your property",
     url: "/CondominiumsMaintenance",
@@ -198,7 +18,7 @@ export const BestServiceItemsArray = [
     ),
   },
   {
-    title: "Retail Stores Janitorial services",
+    title: "Retail Store Cleaning",
     subtitle:
       "Maintaining a spotless retail environment attracts customers and makes them feel comfortable, encouraging them to visit and return to your business regularly.",
     url: "/retail",
@@ -212,7 +32,7 @@ export const BestServiceItemsArray = [
     ),
   },
   {
-    title: "Steam Wash Carpet  Janitorial services",
+    title: "Steam Wash Carpet Janitorial Services",
     subtitle:
       "We will work hard on giving a residential carpets a thorough clean that will help bring back its almost new appearance.",
     url: "/stamcarpet",
@@ -325,21 +145,7 @@ export const BestServiceItemsArray = [
     ),
   },
   {
-    title: "Commercial Buildings Janitorial services",
-    subtitle:
-      "We offer a comprehensive range of janitorial services tailored for commercial buildings, ensuring a clean and professional environment.",
-    url: "/commercial",
-    src: "/img/images/commercial.jpg",
-    src2: "/img/images/commercial.jpg",
-    src3: "/img/images/commercial.jpg",
-    icon: (
-      <>
-       <svg data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="#fff"><path d="M24.851 116.829h78.3a1.794 1.794 0 0 0 1.794-1.794v-28.9a1.794 1.794 0 0 0-1.794-1.794H89.564V12.965a1.794 1.794 0 0 0-1.794-1.794H40.23a1.794 1.794 0 0 0-1.794 1.794v71.379H24.851a1.794 1.794 0 0 0-1.794 1.794v28.9a1.794 1.794 0 0 0 1.794 1.791zm45.276-88.406v11.734H57.87V28.423zM57.87 24.835V14.759h12.257v10.076zm0 18.91h12.257V55.48H57.87zM54.281 55.48H42.024V43.745h12.257zm19.434-11.735h12.261V55.48H73.715zm12.261 15.323V70.8H73.715V59.068zm0-18.911H73.715V28.423h12.261zm-31.694 0H42.024V28.423h12.257zM42.024 59.068h12.257V70.8H42.024zm15.845 0h12.258V70.8H57.87zM70.127 74.39v9.954H57.87V74.39zm-14.06 13.542h29.909v25.309h-6.318V96.16a1.793 1.793 0 0 0-1.794-1.794H50.133a1.794 1.794 0 0 0-1.794 1.794v17.082h-6.315v-25.31zm9.725 10.022H76.07v15.287H65.792zM62.2 113.241H51.927V97.954H62.2zm39.151-25.309v25.309H89.564V87.932zm-27.64-3.588V74.39h12.265v9.954zm12.265-59.509H73.715V14.759h12.261zM54.281 14.759v10.076H42.024V14.759zM42.024 74.39h12.257v9.954H42.024zM26.645 87.932h11.791v25.309H26.645z"/></svg>
-      </>
-    ),
-  },
-  {
-    title: "Office Building Janitorial services",
+    title: "Office Cleaning",
     subtitle:
       "We create a healthy, productive workspace for your employees through our expert services.",
     url: "/OfficeCleaning", 
@@ -520,7 +326,7 @@ export const BestServiceItemsArray = [
   },
  
   {
-    title: "Cleaning and Disinfecting Services",
+    title: "Disinfecting Services",
     subtitle:
       "Our professional steam cleaning services help extend the life of your carpets, saving you from premature replacements.",
     url: "/carpet",
@@ -634,7 +440,7 @@ export const BestServiceItemsArray = [
   },
 
   {
-    title: "Tile and Grout Cleaning",
+    title: "Tile and Grout Cleaning Service",
     subtitle:
       "We deliver a worry-free experience with our expert floor stripping and waxing services, ensuring your floors look their best.",
     url: "/waxing",
@@ -647,36 +453,8 @@ export const BestServiceItemsArray = [
       </>
     ),
   },
-  // {
-  //   title: "Underground parking lot power wash and clean",
-  //   subtitle:
-  //     "We specialize in power washing and providing janitorial services for all types of underground parking garages.",
-  //   url: "/parking",
-  //   src: "/img/images/parking.jpg",
-  //   src2: "/img/images/parking.jpg",
-  //   src3: "/img/images/parking.jpg",
-  //   icon: (
-  //     <>
-  //    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><g data-name="Parking Lot" fill="#fff"><path d="M425.68 108.24H86.324a9.452 9.452 0 0 0-9.45 9.45v41.422a9.451 9.451 0 0 0 9.45 9.45h7.875V394.31a9.452 9.452 0 0 0 9.45 9.45H408.35a9.448 9.448 0 0 0 9.45-9.45V168.562h7.875a9.447 9.447 0 0 0 9.45-9.45V117.69a9.442 9.442 0 0 0-9.446-9.45zM213.542 348.276v-18.9h18.069v18.9zM283.59 363.5v21.36h-55.175V363.5zm14.871-15.224h-18.068v-18.9h18.068zm53.195 36.584H302.49V363.5h20.812v-49.612h-18.727l-10.181-39.375H217.61l-10.178 39.375h-18.73V363.5h20.812v21.36H160.35V253.683H351.65V384.86zm47.25 0h-28.35V244.232a9.448 9.448 0 0 0-9.45-9.45H150.899a9.452 9.452 0 0 0-9.45 9.45v140.63h-28.35v-216.3H398.9V384.86z"/><path d="M237.734 193.29h36.537v18.9h-36.537zM164.652 193.29h36.54v18.9h-36.54zM310.815 193.29h36.54v18.9h-36.54z"/></g></svg>
-  //     </>
-  //   ),
-  // },
-  // {
-  //   title: "Janitorial service and maintenance",
-  //   subtitle:
-  //     "We deliver our services with extreme care, prioritizing environmentally sensitive practices",
-  //   url: "/janitorial",
-  //   src: "/img/images/janitorial.jpg",
-  //   src2: "/img/images/janitorial.jpg",
-  //   src3: "/img/images/janitorial.jpg",
-  //   icon: (
-  //     <>
-  //   <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="#fff"><path d="M107.5 70.66h-.04c-7.437 0-14.158-1.4-14.4-2.993-.325-2.187 7.266-7.09 14.56-10.3a1.25 1.25 0 0 0-.928-2.32c-7.155 2.587-15.675 4.143-16.952 2.335-1.039-1.47 3.223-7.437 7.7-11.874a1.25 1.25 0 0 0-1.567-1.932L72.791 58.773l9.036-31.727a1.25 1.25 0 0 0-2.345-.849c-2.879 6.5-7.375 13.109-9.475 12.614-2.858-.681-4.529-11.354-4.759-18.353a1.25 1.25 0 0 0-2.5 0c-.229 7-1.9 17.671-4.759 18.353-2.11.491-6.6-6.12-9.475-12.614a1.25 1.25 0 0 0-2.345.849l9.036 31.727L32.126 43.58a1.25 1.25 0 0 0-1.567 1.932c4.476 4.435 8.737 10.4 7.7 11.874-1.279 1.807-9.8.253-16.952-2.335a1.25 1.25 0 0 0-.928 2.32c7.294 3.206 14.885 8.108 14.559 10.3-.237 1.6-6.959 2.993-14.4 2.993H20.5a1.25 1.25 0 0 0-.155 2.49l30.562 3.826-12.747 8.133a1.25 1.25 0 0 0 .811 2.3L62.75 84.75v22.75a1.25 1.25 0 0 0 2.5 0V73.887l21.226-8.73a1.25 1.25 0 1 0-.951-2.312L65.25 71.183V51.417a1.25 1.25 0 0 0-2.5 0v19.766l-20.274-8.339a1.25 1.25 0 0 0-.951 2.313l21.226 8.73v8.348l-18.712 2.092 11.134-7.106a1.25 1.25 0 0 0-.518-2.294l-22.982-2.878c2.992-.743 5.433-1.976 5.735-4.015.38-2.558-2.6-5.342-6.174-7.709 3.91.622 7.626.538 9.062-1.5 1.421-2.011-.036-5.257-2.141-8.287l18.49 12.173a1.25 1.25 0 0 0 1.89-1.387l-7.029-24.682c2.151 2.926 4.662 5.171 7.066 4.6 2.848-.678 4.486-4.962 5.428-9.509.941 4.547 2.58 8.831 5.428 9.509 2.407.569 4.916-1.676 7.067-4.6l-7.03 24.683a1.25 1.25 0 0 0 1.89 1.387l18.489-12.17c-2.1 3.03-3.562 6.276-2.141 8.287 1.436 2.034 5.152 2.118 9.062 1.5-3.577 2.367-6.554 5.151-6.174 7.709.3 2.039 2.743 3.272 5.735 4.015l-22.981 2.874a1.25 1.25 0 0 0-.518 2.294l11.134 7.106-11.484-1.284a1.25 1.25 0 0 0-.277 2.484l16.828 1.882a1.335 1.335 0 0 0 .14.008 1.25 1.25 0 0 0 .672-2.3l-12.747-8.14 30.562-3.826a1.25 1.25 0 0 0-.155-2.49z"/></svg>
-  //     </>
-  //   ),
-  // },
   {
-    title: "Post-Construction Cleaning",
+    title: "Construction Cleaning Service",
     subtitle:
       "Our post-construction cleaning ensures your space is spotless and ready to use.",
     url: "/postconstruction",

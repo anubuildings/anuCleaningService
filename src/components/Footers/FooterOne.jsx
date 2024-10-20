@@ -37,9 +37,18 @@ const FooterOne = () => {
                    
                     <div className="footer-contact">
                     <p>
-                    Available 24/7, 365 Days a Year</p>
+                    Available 24/7 </p>
 
-                    <a href="tel:+16477734356"> +1 (647) 773-4356</a>
+                    <p>
+                      Office Number: <a href="tel:+12892740648"> 
+                      +1 (289) 274-0648
+                      </a>
+                    </p>
+                    <p>
+                      After hours /Emergency Contact: <a href="tel:+16477734356"> 
+                          +1 (647) 773-4356
+                      </a>
+                    </p>
                     </div>
                   </div>
                 </div>

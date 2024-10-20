@@ -48,7 +48,7 @@ const IntroductionAreaOne = () => {
 
                 <span className="call-now">
                   <i className="fas fa-phone-alt"></i>
-                  <a href="tel:+16477734356">+1 (647) 773-4356</a>
+                  <a href="tel:+12892740648">+1 (289) 274-0648</a>
                 </span>
               </div>
             </div>

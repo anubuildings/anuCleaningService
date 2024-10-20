@@ -20,8 +20,8 @@ const EstimateArea = () => {
                       <div className="content">
                         <h2 className="title">Office</h2>
                         <p>5215, Finch Ave E Unit:153 ,<br/>
-                        Scarborough, Ontario.M1S0C2</p>
-                        <p>Phone  +1 (647) 773-4356</p>
+                        Toronto, Ontario.M1S0C2</p>
+                        <p>Phone  +1 (289) 274-0648</p>
                         
                       </div>
                     </div>

@@ -158,7 +158,7 @@ const VideoAreaTwo = () => {
         </svg>
         </div>
                     <Link to="/stamcarpet">
-                    Steam wash carpet cleaning
+                      Carpet Steam Wash Cleaning 
                     </Link>
                   </div>
                 </li>
@@ -169,8 +169,8 @@ const VideoAreaTwo = () => {
                         <path d="M32 4C17.6 4 6 15.6 6 30c0 14.1 9.6 25.7 23.3 27.8v-3.1H20v-2h9.3v-2H20v-2h9.3v-2H20v-2h9.3v-4H20v-2h11.3c.4-1 1.3-2 2.7-2 1.6 0 2.6 1 3 2H44v2H32.7v4H44v2H32.7v2H44v2H32.7v2H44v2H32.7v3.1C46.4 55.7 56 44.1 56 30c0-14.4-11.6-26-24-26zm9.2 22.6l-2.8 2.9c-.4.4-1 .6-1.4.6s-1-.2-1.4-.6l-3.6-3.5c-2.1.8-4.4.3-6.1-1.4-2.5-2.5-2.5-6.6 0-9.1 2.5-2.5 6.6-2.5 9.1 0 1.8 1.8 2.2 4.4 1.4 6.7l3.5 3.5c.8.7.8 2 .1 2.9zm-8.7-4.7c1.5 1.5 4 1.5 5.5 0 1.5-1.5 1.5-4 0-5.5-1.5-1.5-4-1.5-5.5 0-1.5 1.5-1.5 4 0 5.5z"></path>
                       </svg>
                     </div>
-                    <Link to="/janitorial">
-                      Janitorial Cleaning Services
+                    <Link to="/waxing">
+                      Tile and grout cleaning
                     </Link>
                   </div>
                 </li>
@@ -179,8 +179,9 @@ const VideoAreaTwo = () => {
                   <div className="services-icon"> 
                   <svg data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="50" fill="#9D958E"><path d="M24.851 116.829h78.3a1.794 1.794 0 0 0 1.794-1.794v-28.9a1.794 1.794 0 0 0-1.794-1.794H89.564V12.965a1.794 1.794 0 0 0-1.794-1.794H40.23a1.794 1.794 0 0 0-1.794 1.794v71.379H24.851a1.794 1.794 0 0 0-1.794 1.794v28.9a1.794 1.794 0 0 0 1.794 1.791zm45.276-88.406v11.734H57.87V28.423zM57.87 24.835V14.759h12.257v10.076zm0 18.91h12.257V55.48H57.87zM54.281 55.48H42.024V43.745h12.257zm19.434-11.735h12.261V55.48H73.715zm12.261 15.323V70.8H73.715V59.068zm0-18.911H73.715V28.423h12.261zm-31.694 0H42.024V28.423h12.257zM42.024 59.068h12.257V70.8H42.024zm15.845 0h12.258V70.8H57.87zM70.127 74.39v9.954H57.87V74.39zm-14.06 13.542h29.909v25.309h-6.318V96.16a1.793 1.793 0 0 0-1.794-1.794H50.133a1.794 1.794 0 0 0-1.794 1.794v17.082h-6.315v-25.31zm9.725 10.022H76.07v15.287H65.792zM62.2 113.241H51.927V97.954H62.2zm39.151-25.309v25.309H89.564V87.932zm-27.64-3.588V74.39h12.265v9.954zm12.265-59.509H73.715V14.759h12.261zM54.281 14.759v10.076H42.024V14.759zM42.024 74.39h12.257v9.954H42.024zM26.645 87.932h11.791v25.309H26.645z"/></svg>
                   </div>
-                    <Link to="/parking">
-                    Underground parking power washing
+                    <Link to="/retail">
+                    
+                    Retail store cleaning
                    
                     </Link>
                   </div>
@@ -209,7 +210,7 @@ const VideoAreaTwo = () => {
                       </svg>
                     </div>
                     <Link to="/waxing">
-                      Tile and Grout Cleaning
+                        Disinfecting cleaning
                     </Link>
                   </div>
                 </li>

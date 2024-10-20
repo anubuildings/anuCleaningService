@@ -13,8 +13,11 @@ const ContactPageArea = () => {
                   <i className="fas fa-phone-volume"></i>
                 </div>
                 <div className="content">
-                <a href="tel:+16477734356"> 
-                  +1 (647) 773-4356
+                Office Number: <a href="tel:+12892740648"> 
+                    +1 (289) 274-0648
+                </a><br/>
+                After hours /Emergency Contact: <a href="tel:+16477734356"> 
+                    +1 (647) 773-4356
                 </a><br/>
                 <a href="mailto:vasi@anubuilsingservices.com ">
                   vasi@anubuilsingservices.com 
@@ -31,7 +34,7 @@ const ContactPageArea = () => {
                 </div>
                 <div className="content">
               
-                <b>Available 24/7, 365 Days a Year</b>
+                <b>Available 24/7</b>
                 <br/>
                 <strong>Office working hours </strong>
                 Monday to Friday: 9:00 AM – 5:00 PM
@@ -49,7 +52,7 @@ const ContactPageArea = () => {
                 <div className="content">
                  
                 5215 Finch Ave E, Unit 153,<br/>
-                Scarborough, Ontario, M1S 0C2
+                Toronto, Ontario, M1S 0C2
                 </div>
               </div>
             </div>

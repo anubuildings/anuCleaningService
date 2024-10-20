@@ -49,7 +49,7 @@ const AboutUs = () => {
                     <i className="fas fa-check-circle"></i>We Are Reliable: Our team is professional, punctual, and always delivers on time, making sure your space is cleaned when you need it.
                   </li>
                   <li>
-                    <i className="fas fa-check-circle"></i>We Are Available 24/7: No matter the time or day, we’re here for you. Our services are available 24/7, 365 days a year to fit your schedule and needs.
+                    <i className="fas fa-check-circle"></i>We Are Available 24/7: No matter the time or day, we’re here for you. Our services are available 24/7 to fit your schedule and needs.
                   </li>
                 
                 </ul>
@@ -59,7 +59,7 @@ const AboutUs = () => {
                 <span className="icon">
                   <i className="fas fa-phone-alt"></i>
                 </span>
-                <a href="tel:+16477734356">+1 (647) 773-4356</a>
+                <a href="tel:+12892740648">+1 (289) 274-0648</a>
               </div>
             </div>
           </div>

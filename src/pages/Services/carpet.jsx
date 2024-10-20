@@ -20,8 +20,8 @@ const ServicesDetailsPage = () => {
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea
-          title={"Residential Carpet  Janitorial services"}
-          subtitle={"Residential Carpet  Janitorial services"}
+          title={"Disinfecting Services"}
+          subtitle={"Disinfecting Services"}
         />
           <section className="services-deatails-area pt-130 pb-130">
       <div className="container">
@@ -40,7 +40,7 @@ const ServicesDetailsPage = () => {
                   </div>
               <div className="services-details-content">
                 <br/>
-                <h2 className="title">Residential Carpet  Janitorial services</h2>
+                <h2 className="title">Disinfecting Services</h2>
                 <p>
                 Keeping your space clean and germ-free is more important than ever. We offer comprehensive cleaning and disinfecting services to ensure your environment remains safe, using non-toxic products that effectively eliminate germs without harsh chemicals.
                 <br/>

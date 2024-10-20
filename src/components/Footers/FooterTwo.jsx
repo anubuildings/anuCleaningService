@@ -28,7 +28,7 @@ const FooterTwo = () => {
                     </div>
                     <div className="content">
                       <h4 className="title">Phone 24/7:</h4>
-                      <a href="tel:+16477734356">+1 (647) 773-4356</a>
+                      <a href="tel:+12892740648">+1 (289) 274-0648</a>
                     </div>
                   </div>
                 </div>
@@ -49,7 +49,7 @@ const FooterTwo = () => {
                     <div className="content">
                       <h4 className="title">Address</h4>
                       <span>5215 Finch Ave E, Unit 153,
-                      Scarborough, Ontario, M1S 0C2</span>
+                      Toronto, Ontario, M1S 0C2</span>
                     </div>
                   </div>
                 </div>

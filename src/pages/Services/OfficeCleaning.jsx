@@ -20,8 +20,8 @@ const ServicesDetailsPage = () => {
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea
-          title={"Office Building  Janitorial services"}
-          subtitle={"Office Building  Janitorial services"}
+          title={"Office Cleaning"}
+          subtitle={"Office Cleaning"}
         />
           <section className="services-deatails-area pt-130 pb-130">
       <div className="container">
@@ -40,7 +40,7 @@ const ServicesDetailsPage = () => {
                   </div>
               <div className="services-details-content">
                 <br/>
-                <h2 className="title">Office Building  Janitorial services</h2>
+                <h2 className="title">Office Cleaning</h2>
                 <p>
                 A clean office isn’t just about appearance—it also creates a healthy, productive workspace for your employees. We specialize in office building cleaning, ensuring that everything from desks to restrooms is kept spotless.
                 <br/>
