@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import BrandArea from "../../components/BrandArea/BrandArea";
-import BreadcrumbArea from "../../components/BreadcrumbArea/BreadcrumbArea";
+import BreadcrumbArea4 from "../../components/BreadcrumbArea/BreadcrumbArea4";
 import Layout from "../../layouts/Layout";
 import { gsapTitleAnimation } from "../../lib/gsap-lib/gsapTitleAnimation";
 import BeforeAfterSlider from "../../components/BeforeAfterSlider/BeforeAfterSlider";
 import { Link } from "react-router-dom";
-
+import ImageGallery from "../../components/ImageGallery/ImageGallery"
 
 
 const ServicesDetailsPage = () => {
@@ -19,7 +19,7 @@ const ServicesDetailsPage = () => {
         footer={1}
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
-        <BreadcrumbArea
+        <BreadcrumbArea4
           title={"Condominium Janitorial Services"}
           subtitle={"Condominium Janitorial Services"}
         />
@@ -35,7 +35,9 @@ const ServicesDetailsPage = () => {
                       after={"/img/images/after_img.jpg"}
                       
                     /> */}
-                    <img src="/img/images/condominium.jpg" alt="Service Image" style={{ width: "100%", height: "auto", display: "block" }} />
+                    {/* <img src="/img/images/condominium.jpg" alt="Service Image" style={{ width: "100%", height: "auto", display: "block" }} /> */}
+
+                    <ImageGallery/>
 
                   </div>
               <div className="services-details-content">

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import BreadcrumbArea from "../components/BreadcrumbArea/BreadcrumbArea";
+import BreadcrumbArea2 from "../components/BreadcrumbArea/BreadcrumbArea2";
 import ContactMapArea from "../components/Contact/ContactMapArea";
 import ContactPageArea from "../components/Contact/ContactPageArea";
 import Layout from "../layouts/Layout";
@@ -15,7 +15,7 @@ const ContactPage = () => {
     footer={1}
     headerClassName={"header-style-two"}
     topHeaderClassName={"header-top-two"}>
-      <BreadcrumbArea title={"Contact Us"} subtitle={"Contact Us"} />
+      <BreadcrumbArea2 title={"Contact Us"} subtitle={"Contact Us"} />
       <ContactPageArea />
       <ContactMapArea />
     </Layout>

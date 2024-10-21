@@ -40,7 +40,7 @@ const FooterOne = () => {
                     Available 24/7 </p>
 
                     <p>
-                      Office Number: <a href="tel:+12892740648"> 
+                      Office Number: <br/><a href="tel:+12892740648"> 
                       +1 (289) 274-0648
                       </a>
                     </p>
@@ -70,7 +70,11 @@ const FooterOne = () => {
 <div className="col-md-4">
 <div className="footer-widget">
                   <div className="fw-title">
-                    <h4 className="title">Connect with Us</h4>
+                    <h4 className="title">Address</h4>
+                    <p>
+                    5215 Finch Ave E, Unit 153,<br/>
+                    Toronto, Ontario, M1S 0C2
+                    </p>
                   </div>
                   <div className="social-links">
             <ul className="clearfix list-wrap flexicon">

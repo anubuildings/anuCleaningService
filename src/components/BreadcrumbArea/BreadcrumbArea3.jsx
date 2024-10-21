@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { bgImgFromData } from "../../lib/helpers";
 import { Link } from "react-router-dom";
 
-const BreadcrumbArea = ({ title, subtitle }) => {
+const BreadcrumbArea3 = ({ title, subtitle }) => {
   useEffect(() => {
     bgImgFromData();
   }, []);
@@ -10,7 +10,7 @@ const BreadcrumbArea = ({ title, subtitle }) => {
   return (
     <section
       className="breadcrumb-area breadcrumb-bg"
-      data-background="/img/bg/breadcrumb_bg.jpg"
+      data-background="/img/bg/breadcrumb_bg3.jpg"
     >
       <div className="container">
         <div className="row">
@@ -37,4 +37,4 @@ const BreadcrumbArea = ({ title, subtitle }) => {
   );
 };
 
-export default BreadcrumbArea;
+export default BreadcrumbArea3;

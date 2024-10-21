@@ -15,10 +15,10 @@ const ContactPageArea = () => {
                 <div className="content">
                 Office Number: <a href="tel:+12892740648"> 
                     +1 (289) 274-0648
-                </a><br/>
+                </a>
                 After hours /Emergency Contact: <a href="tel:+16477734356"> 
                     +1 (647) 773-4356
-                </a><br/>
+                </a>
                 <a href="mailto:vasi@anubuilsingservices.com ">
                   vasi@anubuilsingservices.com 
                 </a>
@@ -35,7 +35,7 @@ const ContactPageArea = () => {
                 <div className="content">
               
                 <b>Available 24/7</b>
-                <br/>
+                
                 <strong>Office working hours </strong>
                 Monday to Friday: 9:00 AM – 5:00 PM
                 Saturday: 9:00 AM – 12:00 PM <br/>
@@ -53,6 +53,39 @@ const ContactPageArea = () => {
                  
                 5215 Finch Ave E, Unit 153,<br/>
                 Toronto, Ontario, M1S 0C2
+                <br/>
+                <div className="social-links">
+            <ul className="clearfix list-wrap flexicon">
+              <li>
+                <a href="https://www.facebook.com/anubuildingservices/">
+                  <i className="fab fa-facebook-f cp"></i>
+                </a>
+              </li>
+             
+              <li>
+                <a href="#">
+                  <i className="fab fa-instagram cp"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="fab fa-linkedin-in cp"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="fab fa-whatsapp cp"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="fab fa-twitter cp"></i>
+                </a>
+              </li>
+             
+            </ul>
+          </div>
+          <br/><br/>
                 </div>
               </div>
             </div>

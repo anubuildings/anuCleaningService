@@ -35,8 +35,8 @@ const EstimateArea = () => {
                       <div className="content">
                         <h2 className="title">Office Hours</h2>
                         <p>
-                        Mon-Fri: 9:00 am to<br/> 5:00 pm<br/>
-                        Sat 9:00 am to<br/> 1:00 pm<br/>
+                        Mon-Fri: <br/>9:00 am to 5:00 pm<br/>
+                        Sat: 9:00 am to 1:00 pm<br/>
                         Sunday - Close 
                         </p>
                         

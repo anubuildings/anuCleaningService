@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import BrandArea from "../../components/BrandArea/BrandArea";
-import BreadcrumbArea from "../../components/BreadcrumbArea/BreadcrumbArea";
+import BreadcrumbArea3 from "../../components/BreadcrumbArea/BreadcrumbArea3";
 import Layout from "../../layouts/Layout";
 import { gsapTitleAnimation } from "../../lib/gsap-lib/gsapTitleAnimation";
 import BeforeAfterSlider from "../../components/BeforeAfterSlider/BeforeAfterSlider";
@@ -19,7 +19,7 @@ const ServicesDetailsPage = () => {
         footer={1}
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
-        <BreadcrumbArea
+        <BreadcrumbArea3
           title={"Underground parking lot power wash and clean"}
           subtitle={"Underground parking lot power wash and clean"}
         />

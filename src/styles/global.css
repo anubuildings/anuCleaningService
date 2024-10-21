@@ -5698,3 +5698,29 @@ div[data-testid="container"] {
 #content-wrapper {
   overflow-x: hidden;
 }
+.cp {
+  color: #9d958e!important;
+}
+.w250 {
+  width:250px;
+  border-radius: 10px;
+}
+
+.my-masonry-grid {
+  display: flex;
+  margin-left: -20px; /* gutter size offset */
+  width: auto;
+  justify-content: flex-start;
+}
+.my-masonry-grid_column {
+  padding-left: 10px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style individual images */
+.my-masonry-grid_column > img {
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+  border-radius:8px;
+}
