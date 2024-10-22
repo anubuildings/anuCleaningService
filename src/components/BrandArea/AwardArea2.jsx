@@ -4,7 +4,7 @@ import cn from "classnames";
 const BrandArea = ({ className }) => {
  
   return (
-    <div className={cn(className ? className : "brand-area pb-130" )}>
+    <div className={cn(className ? className : "brand-area pb-130 od1" )}>
       <div className="container">
        <div className="row">
         <div className="col-md-4 alc">

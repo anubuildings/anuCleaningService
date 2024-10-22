@@ -76,7 +76,11 @@ const FooterOne = () => {
                     Toronto, Ontario, M1S 0C2
                     </p>
                   </div>
+                  <div className="fw-title">
+                  <h4 className="title">Follow Us</h4>
+                  </div>
                   <div className="social-links">
+                 
             <ul className="clearfix list-wrap flexicon">
               <li>
                 <a href="https://www.facebook.com/anubuildingservices/">

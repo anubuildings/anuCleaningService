@@ -5724,3 +5724,28 @@ div[data-testid="container"] {
   margin-bottom: 30px;
   border-radius:8px;
 }
+.od1 {
+  order:1
+}
+
+.desk {
+  display: block;
+}
+
+.mob {
+  display: none;
+}
+
+.mob .title {
+  margin-top:15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .desk {
+    display: none;
+  }
+
+  .mob {
+    display: block;
+  }
+}
