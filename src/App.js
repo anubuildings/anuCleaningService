@@ -19,7 +19,8 @@ import Stamcarpet from "./pages/Services/stam-carpet";
 import Waxing from "./pages/Services/waxing";
 import Parking from "./pages/Services/parking";
 import Janitorial from "./pages/Services/janitorial";
-import Testimonial from "./pages/Testimonial"
+import Testimonial from "./pages/Testimonial";
+import Error from "./pages/Error"
 
 
 function App() {
@@ -69,6 +70,7 @@ function App() {
         <Route path="/parking" element={<Parking />} />
         <Route path="/janitorial" element={<Janitorial />} />
         <Route path="/testimonial" element={<Testimonial />} />
+        <Route path="/error" element={<Error />} />
       </Routes>
     </>
   );
