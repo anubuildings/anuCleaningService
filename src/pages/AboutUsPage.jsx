@@ -21,15 +21,13 @@ const AboutUsPage = () => {
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea1 title={"About Us"} subtitle={"About Us"} />
-        <div className="mob">
-        <AwardArea2/>
-        </div>
+       
         <AboutUs />
         <ServicesAreaTwo />
         <ServicesAreaSix />
-        <div className="desk">
+      
         <AwardArea2/>
-        </div>
+      
         <VideoAreaTwo />
        
         <BrandArea className={"inner-brand-area pb-70"} />

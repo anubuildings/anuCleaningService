@@ -4,14 +4,14 @@ import cn from "classnames";
 const BrandArea = ({ className }) => {
  
   return (
-    <div className={cn(className ? className : "brand-area pb-130 od1" )}>
+    <div className={cn(className ? className : "brand-area pb-130 mtopm" )}>
       <div className="container">
        <div className="row">
-        <div className="col-md-4 alc">
+        <div className="col-md-4 alc od2">
 <img src="/img/images/aboutaward.jpg" className="w250" />
 
         </div>
-        <div className="col-md-8">
+        <div className="col-md-8 od1">
         
         <h2 className="title tg-element-title">
         Award Area
