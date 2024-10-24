@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useLocation, Routes, Route } from "react-router-dom";
+import { useLocation, Routes, Route, Navigate } from "react-router-dom";
 import AnimatedCursor from "react-animated-cursor";
 import HomeOne from "./pages/Homes/HomeOne";
 import WOW from "wow.js";
@@ -20,7 +20,7 @@ import Waxing from "./pages/Services/waxing";
 import Parking from "./pages/Services/parking";
 import Janitorial from "./pages/Services/janitorial";
 import Testimonial from "./pages/Testimonial";
-import Error from "./pages/Error"
+import Error from "./pages/Error";
 
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
     });
     wow.init();
   }, []);
- 
+
   // aos scroll
   useEffect(() => {
     AOS.init({ duration: 1000, mirror: true, once: true, disable: "mobile" });
@@ -71,6 +71,9 @@ function App() {
         <Route path="/janitorial" element={<Janitorial />} />
         <Route path="/testimonial" element={<Testimonial />} />
         <Route path="/error" element={<Error />} />
+
+        {/* Redirect to Error page for unknown routes */}
+        <Route path="*" element={<Navigate to="/error" />} />
       </Routes>
     </>
   );
