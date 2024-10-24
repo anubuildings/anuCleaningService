@@ -13,16 +13,18 @@ const ContactPageArea = () => {
                   <i className="fas fa-phone-volume"></i>
                 </div>
                 <div className="content">
-                Office Number: <a href="tel:+12892740648"> 
+               <b> Office Number: </b> <a href="tel:+12892740648"> 
                     +1 (289) 274-0648
-                </a>
-                After hours /Emergency Contact: <a href="tel:+16477734356"> 
-                    +1 (647) 773-4356
                 </a>
                 <a href="mailto:vasi@anubuilsingservices.com ">
                   vasi@anubuilsingservices.com 
                 </a>
                  
+
+                <b> After hours /Emergency Contact:</b> <a href="tel:+16477734356"> 
+                    +1 (647) 773-4356
+                </a>
+                
                 </div>
               </div>
             </div>
@@ -55,6 +57,9 @@ const ContactPageArea = () => {
                 Toronto, Ontario, M1S 0C2
                 <br/>
                 <div className="social-links">
+                <b>Follow Us</b>
+
+
             <ul className="clearfix list-wrap flexicon">
               <li>
                 <a href="https://www.facebook.com/anubuildingservices/">
@@ -85,7 +90,7 @@ const ContactPageArea = () => {
              
             </ul>
           </div>
-          <br/><br/>
+          <br/>
                 </div>
               </div>
             </div>
@@ -102,7 +107,7 @@ const ContactPageArea = () => {
 
             <div className="col-lg-6">
               <div className="contact-content">
-                <h2 className="title">Contact for Services</h2>
+                <h2 className="title">Contact Us</h2>
                 <ContactForm />
               </div>
             </div>

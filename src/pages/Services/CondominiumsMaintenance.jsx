@@ -35,9 +35,9 @@ const ServicesDetailsPage = () => {
                       after={"/img/images/after_img.jpg"}
                       
                     /> */}
-                    {/* <img src="/img/images/condominium.jpg" alt="Service Image" style={{ width: "100%", height: "auto", display: "block" }} /> */}
+                    <img src="/img/images/condominium.jpg" alt="Service Image" style={{ width: "100%", height: "auto", display: "block" }} />
 
-                    <ImageGallery/>
+                    {/* <ImageGallery/> */}
 
                   </div>
               <div className="services-details-content">
