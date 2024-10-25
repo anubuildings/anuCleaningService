@@ -68,18 +68,31 @@ const FooterTwo = () => {
                 </div>
                 
                 <div className="footer-social-menu">
-                  <ul className="list-wrap">
-                    <li>
-                      <a href="#">Facebook</a>
+                <ul className="clearfix list-wrap flexicon">
+                    <li className="facebook">
+                      <a href="https://www.facebook.com/anubuildingservices/">
+                        <i className="fab fa-facebook-f"></i>
+                      </a>
                     </li>
-                    <li>
-                      <a href="#">Twitter</a>
+                    <li className="instagram">
+                      <a href="#">
+                        <i className="fab fa-instagram"></i>
+                      </a>
                     </li>
-                    <li>
-                      <a href="#">LinkedIn</a>
+                    <li className="linkedin">
+                      <a href="#">
+                        <i className="fab fa-linkedin-in"></i>
+                      </a>
                     </li>
-                    <li>
-                      <a href="#">Instagram</a>
+                    <li className="whatsapp">
+                      <a href="#">
+                        <i className="fab fa-whatsapp"></i>
+                      </a>
+                    </li>
+                    <li className="twitter">
+                      <a href="#">
+                        <i className="fab fa-twitter"></i>
+                      </a>
                     </li>
                   </ul>
                 </div>

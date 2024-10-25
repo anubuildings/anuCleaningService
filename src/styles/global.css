@@ -5797,3 +5797,30 @@ div[data-testid="container"] {
     transform: translateY(-10px);
   }
 }
+
+
+/* Default color */
+.social-links a i {
+  color: #474747; /* Default icon color */
+}
+
+/* Hover color */
+.facebook:hover i {
+  color: #1877f2; /* Facebook brand color */
+}
+
+.instagram:hover i {
+  color: #e1306c; /* Instagram brand color */
+}
+
+.linkedin:hover i {
+  color: #0077b5; /* LinkedIn brand color */
+}
+
+.whatsapp:hover i {
+  color: #25D366; /* WhatsApp brand color */
+}
+
+.twitter:hover i {
+  color: #1DA1F2; /* Twitter brand color */
+}
