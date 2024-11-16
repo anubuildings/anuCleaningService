@@ -32,7 +32,7 @@ export const BestServiceItemsArray = [
     ),
   },
   {
-    title: "Steam Wash Carpet Janitorial Services",
+    title: "Carpet Steam Wash Cleaning",
     subtitle:
       "We will work hard on giving a residential carpets a thorough clean that will help bring back its almost new appearance.",
     url: "/stamcarpet",
@@ -326,7 +326,7 @@ export const BestServiceItemsArray = [
   },
  
   {
-    title: "Disinfecting Services",
+    title: "Disinfecting Cleaning",
     subtitle:
       "Our professional steam cleaning services help extend the life of your carpets, saving you from premature replacements.",
     url: "/carpet",
@@ -440,7 +440,7 @@ export const BestServiceItemsArray = [
   },
 
   {
-    title: "Tile and Grout Cleaning Service",
+    title: "Tile and Grout Cleaning",
     subtitle:
       "We deliver a worry-free experience with our expert floor stripping and waxing services, ensuring your floors look their best.",
     url: "/waxing",
@@ -454,7 +454,7 @@ export const BestServiceItemsArray = [
     ),
   },
   {
-    title: "Construction Cleaning Service",
+    title: "Construction Cleaning",
     subtitle:
       "Our post-construction cleaning ensures your space is spotless and ready to use.",
     url: "/postconstruction",

@@ -20,8 +20,8 @@ const ServicesDetailsPage = () => {
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea2
-          title={"Disinfecting Services"}
-          subtitle={"Disinfecting Services"}
+          title={"Disinfecting Cleaning"}
+          subtitle={"Disinfecting Cleaning"}
         />
           <section className="services-deatails-area pt-130 pb-130">
       <div className="container">
@@ -40,9 +40,9 @@ const ServicesDetailsPage = () => {
                   </div>
               <div className="services-details-content">
                 <br/>
-                <h2 className="title">Disinfecting Services</h2>
+                <h2 className="title">Disinfecting Cleaning</h2>
                 <p>
-                Keeping your space clean and germ-free is more important than ever. We offer comprehensive cleaning and disinfecting services to ensure your environment remains safe, using non-toxic products that effectively eliminate germs without harsh chemicals.
+                Keeping your space clean and germ-free is more important than ever. We offer comprehensive cleaning and Disinfecting Cleaning to ensure your environment remains safe, using non-toxic products that effectively eliminate germs without harsh chemicals.
                 <br/>
                 Our award-winning team is trained to provide thorough, high-quality cleaning, giving you peace of mind that your space is not only clean but also healthy. We take pride in protecting your health while caring for the planet.
                 </p>

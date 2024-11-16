@@ -39,16 +39,19 @@ const FooterOne = () => {
                     <p>
                     Available 24/7 </p>
 
+
+                    <p>
+                    Main Contact / After hours: <br/> <a href="tel:+16477734356"> 
+                          +1 (647) 773-4356
+                      </a>
+                    </p>
+
                     <p>
                       Office Number: <br/><a href="tel:+12892740648"> 
                       +1 (289) 274-0648
                       </a>
                     </p>
-                    <p>
-                      After hours /Emergency Contact: <a href="tel:+16477734356"> 
-                          +1 (647) 773-4356
-                      </a>
-                    </p>
+                    
                     </div>
                   </div>
                 </div>

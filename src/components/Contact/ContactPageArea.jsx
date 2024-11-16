@@ -13,6 +13,11 @@ const ContactPageArea = () => {
                   <i className="fas fa-phone-volume"></i>
                 </div>
                 <div className="content">
+
+                <b> Main Contact / After hours:</b> <a href="tel:+16477734356"> 
+                    +1 (647) 773-4356
+                </a>
+                
                <b> Office Number: </b> <a href="tel:+12892740648"> 
                     +1 (289) 274-0648
                 </a>
@@ -21,9 +26,7 @@ const ContactPageArea = () => {
                 </a>
                  
 
-                <b> After hours /Emergency Contact:</b> <a href="tel:+16477734356"> 
-                    +1 (647) 773-4356
-                </a>
+                
                 
                 </div>
               </div>

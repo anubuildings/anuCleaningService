@@ -20,8 +20,8 @@ const ServicesDetailsPage = () => {
         headerClassName={"header-style-two"}
         topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea4
-          title={"Construction Cleaning Service"}
-          subtitle={"Construction Cleaning Service"}
+          title={"Construction Cleaning"}
+          subtitle={"Construction Cleaning"}
         />
           <section className="services-deatails-area pt-130 pb-130">
       <div className="container">
@@ -40,9 +40,9 @@ const ServicesDetailsPage = () => {
                   </div>
               <div className="services-details-content">
                 <br/>
-                <h2 className="title">Construction Cleaning Service</h2>
+                <h2 className="title">Construction Cleaning</h2>
                 <p>
-                After construction or renovation, dust and debris can leave your space looking unfinished. Our Construction Cleaning Service ensure that your new space is spotless and ready to use, with meticulous attention to detail.
+                After construction or renovation, dust and debris can leave your space looking unfinished. Our Construction Cleaning ensure that your new space is spotless and ready to use, with meticulous attention to detail.
                 <br/>
                 We use eco-friendly products that safely clean your space, while also respecting the materials and finishes of your project. Our team is experienced in handling the toughest post-construction messes, so you can move in or open up without delay.
                 </p>

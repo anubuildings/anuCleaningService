@@ -59,7 +59,9 @@ const AboutUs = () => {
                 <span className="icon">
                   <i className="fas fa-phone-alt"></i>
                 </span>
-                <a href="tel:+12892740648">+1 (289) 274-0648</a>
+                <a href="tel:+16477734356"> 
+                          +1 (647) 773-4356
+                      </a>
               </div>
             </div>
           </div>

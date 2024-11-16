@@ -58,11 +58,11 @@ const EstimateForm = () => {
             <select id="service" name="service" required>
               <option value="">Select Services*</option>
               <option>Retail Store Cleaning</option>
-              <option>Steam Wash Carpet Janitorial Services</option>
+              <option>Carpet Steam Wash Cleaning</option>
               <option>Office Cleaning</option>
-              <option>Disinfecting Services</option>
-              <option>Tile and Grout Cleaning Service</option>
-              <option>Construction Cleaning Service</option>
+              <option>Disinfecting Cleaning</option>
+              <option>Tile and Grout Cleaning</option>
+              <option>Construction Cleaning</option>
             </select>
           </div>
         </div>
