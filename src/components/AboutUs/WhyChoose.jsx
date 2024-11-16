@@ -8,7 +8,7 @@ const AboutUs = () => {
   }, []);
 
   return (
-    <section className="about-area has-animation pt-30 ">
+    <section className="about-area has-animation pt-30 wcu">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-7 col-md-10">
