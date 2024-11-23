@@ -102,7 +102,7 @@ const FooterOne = () => {
                       </a>
                     </li>
                     <li className="whatsapp">
-                      <a href="https://wa.me/+16477734356?text:Hello%21%20Welcome%20to%20Anu%20building%20Services.%20How%20can%20I%20assist%20you%20today%3F">
+                      <a target="blank" href="https://wa.me/+16477734356">
                         <i className="fab fa-whatsapp"></i>
                       </a>
                     </li>
