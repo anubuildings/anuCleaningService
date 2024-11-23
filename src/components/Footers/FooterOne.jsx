@@ -92,25 +92,25 @@ const FooterOne = () => {
                       </a>
                     </li>
                     <li className="instagram">
-                      <a href="#">
+                      <a href="https://www.instagram.com/anubuildingservices/">
                         <i className="fab fa-instagram"></i>
                       </a>
                     </li>
                     <li className="linkedin">
-                      <a href="#">
+                      <a href="https://www.linkedin.com/in/antony-vasikaran-gnanapragasam-558490190">
                         <i className="fab fa-linkedin-in"></i>
                       </a>
                     </li>
                     <li className="whatsapp">
-                      <a href="#">
+                      <a href="https://wa.me/+16477734356?text:Hello%21%20Welcome%20to%20Anu%20building%20Services.%20How%20can%20I%20assist%20you%20today%3F">
                         <i className="fab fa-whatsapp"></i>
                       </a>
                     </li>
-                    <li className="twitter">
+                    {/* <li className="twitter">
                       <a href="#">
                         <i className="fab fa-twitter"></i>
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
 
           </div>
