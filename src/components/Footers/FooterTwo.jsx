@@ -69,18 +69,18 @@ const FooterTwo = () => {
                 
                 <div className="footer-social-menu">
                 <ul className="clearfix list-wrap flexicon">
-                    <li className="facebook">
+                    <li target="blank" className="facebook">
                       <a href="https://www.facebook.com/anubuildingservices/">
                         <i className="fab fa-facebook-f"></i>
                       </a>
                     </li>
-                    <li className="instagram">
+                    <li target="blank" className="instagram">
                       <a href="https://www.instagram.com/anubuildingservices/">
                         <i className="fab fa-instagram"></i>
                       </a>
                     </li>
                     <li className="linkedin">
-                      <a href="https://www.linkedin.com/in/antony-vasikaran-gnanapragasam-558490190">
+                      <a target="blank" href="https://www.linkedin.com/in/antony-vasikaran-gnanapragasam-558490190">
                         <i className="fab fa-linkedin-in"></i>
                       </a>
                     </li>
