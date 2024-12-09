@@ -9,8 +9,8 @@ const HeaderTop = ({ className }) => {
           <div className="col-lg-6">
             <div className="header-top-left">
               <span>
-                <i className="fas fa-fire-alt"></i> Satisfaction Guaranteed! | <a href="tel:+12892740648"> <i className="ml-10
-                fa fa-phone"></i> +1 (289) 274-0648</a>
+                <i className="fas fa-fire-alt"></i> Satisfaction Guaranteed! | <a href="tel:+16477734356"> <i className="ml-10
+                fa fa-phone"></i> +1 (647) 773-4356</a>
                 
 
               </span>
