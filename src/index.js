@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { BrowserRouter } from "react-router-dom";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import "./styles/bootstrap.min.css";
 import "./styles/animate.min.css";
@@ -16,6 +17,7 @@ import "./styles/responsive.css";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
+    <SpeedInsights />
     <App />
   </BrowserRouter>
 );
