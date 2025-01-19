@@ -10,10 +10,11 @@ const EstimateForm = () => {
 
     // Constructing the custom message
     const message = `
+      Qotation Request\n
+      Contact Person's Name: ${e.target.contact_name.value}\n
       Selected Service: ${e.target.service.value}\n
       Type of Client: ${e.target.client.value}\n
       Company Name: ${e.target.company_name.value}\n
-      Contact Person's Name: ${e.target.contact_name.value}\n
       Contact Person's Role: ${e.target.contact_role.value}\n
       Phone Number: ${e.target.phone.value}\n
       Email: ${e.target.email.value}\n

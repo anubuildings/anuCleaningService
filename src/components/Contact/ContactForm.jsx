@@ -10,6 +10,8 @@ const ContactForm = () => {
 
     // Constructing the custom message
     const message = `
+      Contact Form\n
+      Name: ${e.target.name.value}\n
       Subject: ${e.target.subject.value}\n
       Phone: ${e.target.phone.value}\n
       Email: ${e.target.email.value}\n
